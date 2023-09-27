@@ -48,8 +48,9 @@
         "template--16192072679583__d6c7b198-a749-4ccc-a6af-787457c5f7e4-column-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/ecofriendly-icon.svg",
+            "title": "Eco-Friendly Products",
+            "text": "<p>Everything we make comes from plants, with 100% recycled options available.<\/p>",
             "link_label": "",
             "link": ""
           }
