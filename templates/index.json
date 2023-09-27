@@ -71,8 +71,11 @@
         "template--16192072679583__d6c7b198-a749-4ccc-a6af-787457c5f7e4-column-2",
         "template--16192072679583__d6c7b198-a749-4ccc-a6af-787457c5f7e4-column-3"
       ],
+      "custom_css": [
+        ".multicolumn .title {color: #008e94; text-align: center; margin-bottom: 20px; font-size: 19px;}"
+      ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "<strong>WE'RE IN BUSINESS TO BUILD THE BEST PRODUCTS FOR OUR CUSTOMERS AND FOR THE ENVIRONMENT.<\/strong>",
         "heading_size": "h2",
         "image_width": "third",
         "image_ratio": "adapt",
@@ -84,8 +87,8 @@
         "color_scheme": "accent-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     }
   },
