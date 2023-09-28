@@ -91,63 +91,47 @@
         "padding_bottom": 64
       }
     },
-    "aadb4ead-03d6-4582-ad40-ba6fa1bb0bca": {
-      "type": "multicolumn",
+    "bdee4468-ed47-46fc-aa48-37c0651856bf": {
+      "type": "custom-multicolumn-slider",
       "blocks": {
-        "template--16192072679583__aadb4ead-03d6-4582-ad40-ba6fa1bb0bca-column-1": {
-          "type": "column",
+        "d6cc3a9a-b172-4e3b-9355-8d0b2383c51e": {
+          "type": "column-image",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/curious-critters.webp",
+            "text": "",
+            "url": ""
           }
         },
-        "template--16192072679583__aadb4ead-03d6-4582-ad40-ba6fa1bb0bca-column-2": {
-          "type": "column",
+        "103abeb9-e11f-47b4-8030-520dda11e275": {
+          "type": "column-image",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/displays.webp",
+            "text": "",
+            "url": ""
           }
         },
-        "template--16192072679583__aadb4ead-03d6-4582-ad40-ba6fa1bb0bca-column-3": {
-          "type": "column",
+        "85b2463a-128f-4a91-a223-5d419ebf257a": {
+          "type": "column-image",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/printer-dolphin.jpg",
+            "text": "",
+            "url": ""
           }
         }
       },
       "block_order": [
-        "template--16192072679583__aadb4ead-03d6-4582-ad40-ba6fa1bb0bca-column-1",
-        "template--16192072679583__aadb4ead-03d6-4582-ad40-ba6fa1bb0bca-column-2",
-        "template--16192072679583__aadb4ead-03d6-4582-ad40-ba6fa1bb0bca-column-3"
+        "d6cc3a9a-b172-4e3b-9355-8d0b2383c51e",
+        "103abeb9-e11f-47b4-8030-520dda11e275",
+        "85b2463a-128f-4a91-a223-5d419ebf257a"
       ],
       "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "heading": "Custom Multicolumn Slider"
       }
     }
   },
   "order": [
     "image_banner",
     "d6c7b198-a749-4ccc-a6af-787457c5f7e4",
-    "aadb4ead-03d6-4582-ad40-ba6fa1bb0bca"
+    "bdee4468-ed47-46fc-aa48-37c0651856bf"
   ]
 }
