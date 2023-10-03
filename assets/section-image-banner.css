@@ -398,8 +398,16 @@
   margin-top: 1rem;
 }
 
-.banner__box > *:first-child {
-  margin-top: 0;
+@media screen and (max-width: 749px) {
+  .banner__box > *:first-child {
+    margin-top: 200px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .banner__box > *:first-child {
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 749px) {
