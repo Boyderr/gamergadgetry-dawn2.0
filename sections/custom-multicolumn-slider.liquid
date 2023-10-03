@@ -1,3 +1,4 @@
+{{ 'section-custom-multicolumn-slider.css' | asset_url | stylesheet_tag }}
 
 <section class="page-width">
     <h2>{{ section.settings.heading }}</h2>
@@ -57,23 +58,6 @@
 {% endschema %}
 
 {% stylesheet %}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-}
-
-.grid-item, .grid-item__image {
-    width: 100%;
-}
-
-@media screen and (min-width: 768px) {
-    .grid-container {
-        grid-template-columns: repeat(3 , 1fr);
-    }
-}
-
 
 {% endstylesheet %}
 
