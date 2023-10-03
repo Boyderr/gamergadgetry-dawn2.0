@@ -109,11 +109,20 @@
             "product-category": "DISPLAYS",
             "url": ""
           }
+        },
+        "f34956ca-7b3e-4e35-9efe-bc09a67edec5": {
+          "type": "column-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/printer-dolphin.jpg",
+            "product-category": "PRINTER PARTS",
+            "url": "shopify:\/\/collections\/printer-parts"
+          }
         }
       },
       "block_order": [
         "4eec1883-773a-46aa-91a2-e80110eb8868",
-        "1b779f4f-f346-4088-91e4-7f0b883425a8"
+        "1b779f4f-f346-4088-91e4-7f0b883425a8",
+        "f34956ca-7b3e-4e35-9efe-bc09a67edec5"
       ],
       "settings": {
         "heading": "Custom Multicolumn"
