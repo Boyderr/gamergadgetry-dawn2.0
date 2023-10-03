@@ -1,12 +1,28 @@
 {{ 'section-custom-multicolumn-slider.css' | asset_url | stylesheet_tag }}
 
+{%- style -%}
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+  
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+  {%- endstyle -%}
+
 <section class="page-width">
-    <h2>{{ section.settings.heading }}</h2>
+    <h2 class="heading" {{ section.settings.heading_size }}>
+        {{ section.settings.heading }}
+    </h2>
     <div class="grid-container">
         {%- for block in section.blocks -%}
         <div class="grid-item">
             <div class="grid-item__container">
-                <img class="grid-item__image" src={{ block.settings.image | img_url }} alt="{{ block.settings.text }}">
+                <img class="grid-item__image" src={{ block.settings.image | img_url: 'large' }} alt="{{ block.settings.text }}">
             </div>
             {% comment %} <h3>{{ block.settings.text }}</h3> {% endcomment %}
         </div>
@@ -17,14 +33,37 @@
 {% schema %} 
     {
         "name": "Custom Multicolumn Slider", 
+        "class": "section",
+        "tag": "section",
         "settings": [
             {
-                "type": "text",
+                "type": "inline_richtext",
+                "class": "heading",
                 "id": "heading",
                 "label": "Heading",
                 "default": "Custom Multicolumn Slider"
 
-            }
+            },
+            {
+                "type": "select",
+                "id": "heading_size",
+                "options": [
+                    {
+                        "value": "h2",
+                        "label": "t:sections.all.heading_size.options__1.label"
+                    },
+                    {
+                        "value": "h1",
+                        "label": "t:sections.all.heading_size.options__2.label"
+                    },
+                    {
+                        "value": "h0",
+                        "label": "t:sections.all.heading_size.options__3.label"
+                    }
+                ],
+                "default": "h1",
+                "label": "t:sections.all.heading_size.label"
+        }
         ],
         "presets": [
             {
@@ -56,10 +95,6 @@
         ]
     }
 {% endschema %}
-
-{% stylesheet %}
-
-{% endstylesheet %}
 
 {% javascript %}
     
