@@ -1,18 +1,20 @@
 {{ 'section-custom-multicolumn.css' | asset_url | stylesheet_tag }}
 
-<section class="page-width">
+<section class="page-width custom-multicolumn">
     <h2>{{ section.settings.heading }}</h2>
     <div class="grid-container">
         {%- for block in section.blocks -%}
         <div class="grid-item">
-            <div class="grid-item__container">
-                <div class="grid-item__overlay">
-                    <img class="grid-item__image" src={{ block.settings.image | img_url: 'large' }} alt="{{ block.settings.product-category }}">
-                    <h3 class="grid-item__text">
-                        {{ block.settings.product-category }}
-                    </h3>
-                </div>
-            </div>
+            <a href="{{ block.settings.url }}">
+                <div class="grid-item__container">
+                    <div class="grid-item__overlay">
+                        <img class="grid-item__image" src={{ block.settings.image | img_url: 'large' }} alt="{{ block.settings.product-category }}">
+                        <h3 class="grid-item__text">
+                            {{ block.settings.product-category }}
+                        </h3>
+                    </div>
+                </div>  
+            </a>
         </div>
         {%- endfor -%}
     </div>
