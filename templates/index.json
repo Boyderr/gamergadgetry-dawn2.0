@@ -91,47 +91,29 @@
         "padding_bottom": 64
       }
     },
-    "bdee4468-ed47-46fc-aa48-37c0651856bf": {
-      "type": "custom-multicolumn-slider",
+    "4ec7c39c-fe64-47e7-8e28-dffd67ae3c0b": {
+      "type": "custom-multicolumn",
       "blocks": {
-        "d6cc3a9a-b172-4e3b-9355-8d0b2383c51e": {
+        "4eec1883-773a-46aa-91a2-e80110eb8868": {
           "type": "column-image",
           "settings": {
             "image": "shopify:\/\/shop_images\/curious-critters.webp",
-            "text": "",
-            "url": ""
-          }
-        },
-        "103abeb9-e11f-47b4-8030-520dda11e275": {
-          "type": "column-image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/displays.webp",
-            "text": "",
-            "url": ""
-          }
-        },
-        "85b2463a-128f-4a91-a223-5d419ebf257a": {
-          "type": "column-image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/printer-dolphin.jpg",
-            "text": "",
-            "url": ""
+            "product-category": "CURIOUS CRITTERS",
+            "url": "shopify:\/\/collections\/critters"
           }
         }
       },
       "block_order": [
-        "d6cc3a9a-b172-4e3b-9355-8d0b2383c51e",
-        "103abeb9-e11f-47b4-8030-520dda11e275",
-        "85b2463a-128f-4a91-a223-5d419ebf257a"
+        "4eec1883-773a-46aa-91a2-e80110eb8868"
       ],
       "settings": {
-        "heading": "Custom Multicolumn Slider"
+        "heading": "Custom Multicolumn"
       }
     }
   },
   "order": [
     "image_banner",
     "d6c7b198-a749-4ccc-a6af-787457c5f7e4",
-    "bdee4468-ed47-46fc-aa48-37c0651856bf"
+    "4ec7c39c-fe64-47e7-8e28-dffd67ae3c0b"
   ]
 }
