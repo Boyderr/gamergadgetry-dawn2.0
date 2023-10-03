@@ -1,18 +1,4 @@
-{{ 'section-custom-multicolumn-slider.css' | asset_url | stylesheet_tag }}
-
-{%- style -%}
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-    }
-  
-    @media screen and (min-width: 750px) {
-      .section-{{ section.id }}-padding {
-        padding-top: {{ section.settings.padding_top }}px;
-        padding-bottom: {{ section.settings.padding_bottom }}px;
-      }
-    }
-  {%- endstyle -%}
+{{ 'section-custom-multicolumn.css' | asset_url | stylesheet_tag }}
 
 <section class="page-width">
     <h2>{{ section.settings.heading }}</h2>
@@ -22,7 +8,6 @@
             <div class="grid-item__container">
                 <img class="grid-item__image" src={{ block.settings.image | img_url: 'large' }} alt="{{ block.settings.text }}">
             </div>
-            {% comment %} <h3>{{ block.settings.text }}</h3> {% endcomment %}
         </div>
         {%- endfor -%}
     </div>
@@ -30,19 +15,19 @@
 
 {% schema %} 
     {
-        "name": "Custom Multicolumn Slider", 
+        "name": "Custom Multicolumn", 
         "settings": [
             {
                 "type": "text",
                 "id": "heading",
                 "label": "Heading",
-                "default": "Custom Multicolumn Slider"
+                "default": "Custom Multicolumn"
 
             }
         ],
         "presets": [
             {
-                "name": "Custom Multicolumn Slider"
+                "name": "Custom Multicolumn"
             }
         ],
         "blocks": [
