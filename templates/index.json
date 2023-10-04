@@ -125,7 +125,10 @@
         "f34956ca-7b3e-4e35-9efe-bc09a67edec5"
       ],
       "settings": {
-        "heading": ""
+        "heading": "",
+        "color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     }
   },
