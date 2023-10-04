@@ -28,7 +28,8 @@
       ],
       "settings": {
         "padding_top": 20,
-        "padding_bottom": 40
+        "padding_bottom": 40,
+        "color_scheme": "accent-2"
       }
     }
   },
