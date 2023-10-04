@@ -120,6 +120,8 @@
     "cart_drawer_collection": "",
     "checkout_logo_image": "shopify:\/\/shop_images\/GamerGadgetry-Horizontal.png",
     "checkout_logo_size": "medium",
+    "checkout_accent_color": "#008e94",
+    "checkout_button_color": "#008e94",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
