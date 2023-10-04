@@ -222,3 +222,12 @@ cart-items {
     gap: 1rem;
   }
 }
+
+/* Customizations */
+
+.custom-header {
+  color: #008E94;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+}
