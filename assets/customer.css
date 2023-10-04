@@ -329,6 +329,7 @@
 }
 
 /* Login */
+
 .login a {
   display: block;
   margin: 0 auto;
@@ -753,3 +754,12 @@ li[data-address] > h2 {
 .addresses form > div:nth-of-type(7) + div[id] {
   margin-top: 1.5rem;
 }
+
+/* Customizations */
+
+.custom-header {
+  color: #008E94;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
