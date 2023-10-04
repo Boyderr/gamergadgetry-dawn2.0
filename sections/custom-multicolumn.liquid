@@ -1,22 +1,25 @@
 {{ 'section-custom-multicolumn.css' | asset_url | stylesheet_tag }}
 
-<section class="page-width custom-multicolumn">
-    <h2>{{ section.settings.heading }}</h2>
-    <div class="grid-container">
-        {%- for block in section.blocks -%}
-        <div class="grid-item">
-            <a href="{{ block.settings.url }}">
-                <div class="grid-item__container">
-                    <div class="grid-item__overlay">
-                        <img class="grid-item__image" src={{ block.settings.image | img_url: 'large' }} alt="{{ block.settings.product-category }}">
-                        <h3 class="grid-item__text">
-                            {{ block.settings.product-category }}
-                        </h3>
-                    </div>
-                </div>  
-            </a>
+<section class="color_scheme color-{{ section.settings.color_scheme }}">
+    <div class="page-width custom-multicolumn section-template--16192079102111__d6c7b198-a749-4ccc-a6af-787457c5f7e4-padding">
+        <h2>{{ section.settings.heading }}</h2>
+        <div class="grid-container">
+            {%- for block in section.blocks -%}
+            <div class="grid-item">
+                <a href="{{ block.settings.url }}">
+                    <div class="grid-item__container">
+                        <div class="grid-item__overlay">
+                            <img class="grid-item__image" src={{ block.settings.image | img_url: 'large' }} alt="{{ block.settings.product-category }}">
+                            <h3 class="grid-item__text">
+                                {{ block.settings.product-category }}
+                            </h3>
+                            <div class="grid-item__border"></div>
+                        </div>
+                    </div>  
+                </a>
+            </div>
+            {%- endfor -%}
         </div>
-        {%- endfor -%}
     </div>
 </section>
 
@@ -30,6 +33,12 @@
                 "label": "Heading",
                 "default": "Custom Multicolumn"
 
+            },
+            {
+                "type": "color_scheme",
+                "id": "color_scheme",
+                "label": "t:sections.all.colors.label",
+                "default": "background-1"
             }
         ],
         "presets": [

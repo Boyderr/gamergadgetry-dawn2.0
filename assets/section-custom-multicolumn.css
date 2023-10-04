@@ -1,8 +1,3 @@
-.custom-multicolumn {
-    margin-top: 64px;
-    margin-bottom: 64px;
-}
-
 .grid-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -26,6 +21,9 @@
     margin: auto;
     background-color: black;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .grid-item__image {
@@ -49,8 +47,14 @@
     color: #fff;
     text-align: center;
     font-size: 24px;
-    padding: 39% 0;
+}
+
+.grid-item__border {
+    position: absolute;
+    display: block !important;
     border: 1px solid #fff;
+    width: 90%;
+    height: 90%;
 }
 
 @media screen and (min-width: 768px) {
