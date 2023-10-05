@@ -1,0 +1,13 @@
+.section-heading {
+    text-align: center;
+    color: #008E94;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.image-slider {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+}
