@@ -150,12 +150,54 @@
         "padding_bottom": 36,
         "color_scheme": "accent-2"
       }
+    },
+    "4f0c3c79-925e-4321-8187-5f88aad717de": {
+      "type": "custom-find-us",
+      "blocks": {
+        "745cb451-2d29-4312-b247-24632b788a48": {
+          "type": "column-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/loadzatoys.jpg"
+          }
+        },
+        "f4a1d50d-5c85-41bf-a33a-3eeb7e0eb02b": {
+          "type": "column-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/baby_and_me_logo.jpg"
+          }
+        },
+        "f6cbb2f1-03ce-4a56-91e0-3e24feecb6dd": {
+          "type": "column-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vernon_teach_and_learn_logo-1920w.png"
+          }
+        },
+        "33b6e0ec-1278-43d3-aae6-ff24e1e6376f": {
+          "type": "column-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kelowna-Farmer_s-and-Crafter_s-Market-Logo-1.png"
+          }
+        }
+      },
+      "block_order": [
+        "745cb451-2d29-4312-b247-24632b788a48",
+        "f4a1d50d-5c85-41bf-a33a-3eeb7e0eb02b",
+        "f6cbb2f1-03ce-4a56-91e0-3e24feecb6dd",
+        "33b6e0ec-1278-43d3-aae6-ff24e1e6376f"
+      ],
+      "settings": {
+        "heading": "Find Us",
+        "color_scheme": "accent-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
     "d6c7b198-a749-4ccc-a6af-787457c5f7e4",
     "4ec7c39c-fe64-47e7-8e28-dffd67ae3c0b",
-    "1696528860d170fa8c"
+    "1696528860d170fa8c",
+    "4f0c3c79-925e-4321-8187-5f88aad717de"
   ]
 }
