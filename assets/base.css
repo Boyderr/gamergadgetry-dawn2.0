@@ -3518,5 +3518,9 @@ details-disclosure > details {
   color: #008e94;
   text-transform: uppercase;
   font-weight: bold;
-  margin-bottom: 16px;
+  margin-bottom: 16px !important;
+}
+
+.jdgm-carousel-item__review-rating {
+  margin-bottom: 6px !important;
 }
