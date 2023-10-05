@@ -3511,3 +3511,12 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+
+/* Review Me App Customizations */
+
+.jdgm-carousel-title {
+  color: #008e94;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
