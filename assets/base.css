@@ -3524,3 +3524,9 @@ details-disclosure > details {
 .jdgm-carousel-item__review-rating {
   margin-bottom: 6px !important;
 }
+
+/* Custom Glider Customizations */
+
+div.glider-dot {
+  display: block;
+}

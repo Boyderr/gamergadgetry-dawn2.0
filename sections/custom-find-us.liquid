@@ -1,4 +1,5 @@
 {{ 'section-custom-find-us.css' | asset_url | stylesheet_tag }}
+{{ 'glider.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
     .section-{{ section.id }}-padding {
@@ -17,12 +18,17 @@
 <section class="color_scheme color-{{ section.settings.color_scheme }}">
     <div class="page-width custom-multicolumn section-{{ section.id }}-padding">
         <h2 class="section-heading">{{ section.settings.heading }}</h2>
-        <div class="image-slider">
-            {%- for block in section.blocks -%}
-                <div class="image-slider__container">
-                    <img class="image-slider__image" src={{ block.settings.image | img_url: '220x' }} alt="image alt">
-                </div>
-            {%- endfor -%}
+        <div class="glider-contain">
+            <div class="glider">
+                {%- for block in section.blocks -%}
+                <img class="image-slider__image" src={{ block.settings.image | img_url: '135x' }} alt="image alt">
+                {%- endfor -%}
+            </div>
+            <div role="tablist" id="resp-dots" class="glider-dots">
+                {%- for block in section.blocks -%}
+                <div class="glider-dot"></div>
+                {%- endfor -%}
+            </div>
         </div>
     </div>
 </section>
@@ -88,3 +94,9 @@
     }
 
 {% endschema %}
+
+{% javascript %}
+
+{{ 'glider.js' | asset_url | script_tag }}
+
+{% endjavascript %}
