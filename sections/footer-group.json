@@ -8,7 +8,7 @@
         "2e07d378-63f8-4adc-8fd5-9d4f303314d0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
+            "heading": "",
             "menu": "footer"
           }
         }
@@ -17,7 +17,7 @@
         "2e07d378-63f8-4adc-8fd5-9d4f303314d0"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "newsletter_enable": true,
         "newsletter_heading": "NEWSLETTER",
         "enable_follow_on_shop": true,
