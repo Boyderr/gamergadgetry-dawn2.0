@@ -19,9 +19,9 @@
     <div class="page-width custom-multicolumn section-{{ section.id }}-padding">
         <h2 class="section-heading">{{ section.settings.heading }}</h2>
         <div class="glider-contain">
-            <div class="glider">
+            <div class="glider" {{ block.shopify_attributes }}>
                 {%- for block in section.blocks -%}
-                <img class="image-slider__image" src={{ block.settings.image | img_url: '1200x' }} alt="image alt">
+                <img class="image-slider__image" src={{ block.settings.image | img_url: '1200x' }} alt="image alt" {{ block.shopify_attributes }}>
                 {%- endfor -%}
             </div>
             <div role="tablist" id="resp-dots" class="glider-dots">
@@ -37,7 +37,8 @@
 {% schema %}
 
     {
-        "name": "Custom Find Us", 
+        "name": "Custom Find Us",
+        "tag": "section", 
         "settings": [
             {
                 "type": "text",
@@ -73,11 +74,6 @@
                 "default": 36
             }
         ],
-        "presets": [
-            {
-                "name": "Custom Find Us"
-            }
-        ],
         "blocks": [
             {
                 "name": "Column Image",
@@ -89,6 +85,11 @@
                         "label": "Select Image"
                     }
                 ]    
+            }
+        ],
+        "presets": [
+            {
+                "name": "Custom Find Us"
             }
         ]
     }
