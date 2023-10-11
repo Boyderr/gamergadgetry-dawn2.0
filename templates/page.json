@@ -25,7 +25,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "RETURNS AND REFUNDS",
-            "icon": "check_mark",
+            "icon": "question_mark",
             "row_content": "<p><strong>Your satisfaction with the products you purchase from Gamer Gadgetry is extremely important to us. We offer a 14-day Return Policy:<\/strong><br\/><\/p><ol><li>If a product gets damaged or was faulty upon delivery - we will offer a 100% refund.<\/li><li>Timing: we have a 14-days Return Policy, since the day item was received.<\/li><li>To be eligible for a return, goods must be unopened, unused, undamaged and accompanied by proof of purchase.<\/li><li>For returns, please email <a href=\"mailto:support@gamergadgetry.com\">support@gamergadgetry.com<\/a> with the subject 'Returns' and include your order number, name and the reason for the return.<\/li><li>We will provide you with instructions where to send returned goods. Customers are strongly recommended to get proof of postage when returning goods to avoid \"lost packages\" situations.<\/li><li>Please note that customers are responsible for shipping costs of returned items.<\/li><li>When the returned item is received and inspected, you will receive a confirmation email, notifying you about the status of the refund.<\/li><li>If the refund is approved, then it will be processed and a credit will automatically be applied to your credit card or original payment method shortly after.<\/li><\/ol>",
             "page": ""
           }
