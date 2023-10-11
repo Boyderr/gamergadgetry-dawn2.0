@@ -5,6 +5,14 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "ac5734d6-4fcf-4a2a-8e37-54184b34558f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gg-logo_58108d99-c2a9-423a-8fe5-4c2da29a4e57.png",
+            "image_width": 270,
+            "alignment": ""
+          }
+        },
         "2e07d378-63f8-4adc-8fd5-9d4f303314d0": {
           "type": "link_list",
           "settings": {
@@ -14,6 +22,7 @@
         }
       },
       "block_order": [
+        "ac5734d6-4fcf-4a2a-8e37-54184b34558f",
         "2e07d378-63f8-4adc-8fd5-9d4f303314d0"
       ],
       "settings": {
