@@ -2763,6 +2763,7 @@ details[open] > .header__submenu {
   animation: animateMenuOpen var(--duration-default) ease;
   animation-fill-mode: forwards;
   z-index: 1;
+  border: 1px solid #008e94;
 }
 
 @media (prefers-reduced-motion) {
