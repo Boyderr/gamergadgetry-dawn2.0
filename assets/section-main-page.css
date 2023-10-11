@@ -4,6 +4,20 @@
 
 .main-page-title {
   margin-bottom: 3rem;
+  color: #008e94;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.rte a {
+  color: #008e94;
+  text-decoration: none;
+}
+
+.rte a:hover {
+  color: #00cdd4;
 }
 
 @media screen and (min-width: 750px) {
