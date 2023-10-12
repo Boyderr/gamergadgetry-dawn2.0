@@ -4,8 +4,8 @@
       "type": "main-page",
       "settings": {
         "color_scheme": "accent-2",
-        "padding_top": 28,
-        "padding_bottom": 28
+        "padding_top": 56,
+        "padding_bottom": 56
       }
     }
   },
