@@ -25,7 +25,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/loadzatoys.jpg",
             "address": "Orchard Park Shopping Centre 2271 Harvey Avenue",
-            "city": "Kelowna, BC V1Y 6H2"
+            "city": "Kelowna, BC V1Y 6H2",
+            "url": "https:\/\/loadzatoyz.com\/"
           }
         },
         "95a629e9-814b-4769-bedd-97942b169e56": {
@@ -33,7 +34,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/vernon_teach_and_learn_logo-1920w.png",
             "address": "3015 30th Ave",
-            "city": "Vernon, BC V1T 2C1"
+            "city": "Vernon, BC V1T 2C1",
+            "url": ""
           }
         },
         "558521dd-6f8b-455b-8759-a2bf8375b6d1": {
@@ -41,7 +43,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/rustic-refined-resized-logo_360x_852fbc7a-18b5-4a5d-b7f5-b048ea977c34.png",
             "address": "10109 Main St",
-            "city": "Summerland, BC V0H 1Z2"
+            "city": "Summerland, BC V0H 1Z2",
+            "url": ""
           }
         },
         "f7f8c4e7-0569-4e7e-bd74-0623ad3a38a5": {
@@ -49,7 +52,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/rhymes-with-purple.png",
             "address": "#149 - 1151 10th Ave SW",
-            "city": "Salmon Arm, BC V1E 1T3"
+            "city": "Salmon Arm, BC V1E 1T3",
+            "url": ""
           }
         },
         "896250a2-74e6-438c-938e-363bb1b95d87": {
@@ -57,7 +61,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ogopogo.jpg",
             "address": "287b Bernard Ave",
-            "city": "Kelowna, BC V1Y 6N2"
+            "city": "Kelowna, BC V1Y 6N2",
+            "url": ""
           }
         }
       },
