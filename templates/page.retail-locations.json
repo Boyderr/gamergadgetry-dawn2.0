@@ -538,12 +538,22 @@
             "city": "Calgary, AB T2H 0K9",
             "url": "https:\/\/thediscoveryhut.com\/"
           }
+        },
+        "b5ef27af-47fd-4ec6-8917-0dbe910c35f5": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/citizen-kid.jpg",
+            "address": "230 Locke St S",
+            "city": "Hamilton, ON L8P 4B7",
+            "url": "https:\/\/citizenkid.ca\/"
+          }
         }
       },
       "block_order": [
         "1be9d9a1-26d9-474e-9953-5dbe4d467562",
         "af282ba8-9d23-409f-bf48-45bced57b6b6",
-        "1ba701d5-0727-49c9-91be-dc71c8212518"
+        "1ba701d5-0727-49c9-91be-dc71c8212518",
+        "b5ef27af-47fd-4ec6-8917-0dbe910c35f5"
       ],
       "settings": {
         "color_scheme": "accent-2",
