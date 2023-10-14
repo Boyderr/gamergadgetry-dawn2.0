@@ -251,7 +251,16 @@
             "image": "shopify:\/\/shop_images\/once-upon-langley.jpg",
             "address": "#104 - 20121 Willowbrook Dr",
             "city": "Langley Township, BC V2Y 0L3",
-            "url": "https:\/\/www.onceuponachild.com\/locations\/langley-bc"
+            "url": ""
+          }
+        },
+        "5109ba6d-4ba9-4f9f-89cf-8a8a354a7485": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/play-it-again.jpg",
+            "address": "458 Ward St",
+            "city": "Nelson, BC V1L 1S8",
+            "url": "https:\/\/www.playitagainkids.ca\/"
           }
         }
       },
@@ -281,7 +290,8 @@
         "57471167-8110-40d3-9eee-fa3e52037890",
         "e0382f21-e6a4-4c95-812c-1b4dac0eec23",
         "abb7afb2-e172-48fb-8943-73586d6233ee",
-        "45509cf1-a031-4096-a6d5-a45c29e1a46a"
+        "45509cf1-a031-4096-a6d5-a45c29e1a46a",
+        "5109ba6d-4ba9-4f9f-89cf-8a8a354a7485"
       ],
       "settings": {
         "color_scheme": "accent-2",
