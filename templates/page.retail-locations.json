@@ -109,6 +109,15 @@
             "city": "Vernon, BC V1T 5G5",
             "url": "https:\/\/okscience.ca\/"
           }
+        },
+        "52159c5f-322b-40b2-a33d-ff28393593b1": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/once_upon_a_child_logo.png",
+            "address": "1780 Baron Road",
+            "city": "Kelowna, BC V1X 7G9",
+            "url": "https:\/\/www.onceuponachild.com\/home"
+          }
         }
       },
       "block_order": [
@@ -121,7 +130,8 @@
         "18864822-77bf-4484-aacb-f68a7104063c",
         "8d8c1ea5-0cfd-403b-b889-bc3f484974be",
         "9dd63f7e-8e6e-4fe7-8a51-236513a01f7c",
-        "cbfbb911-bae7-4624-8dc1-9ff284f9a215"
+        "cbfbb911-bae7-4624-8dc1-9ff284f9a215",
+        "52159c5f-322b-40b2-a33d-ff28393593b1"
       ],
       "settings": {
         "color_scheme": "accent-2",
