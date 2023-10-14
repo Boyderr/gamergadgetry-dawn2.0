@@ -35,11 +35,20 @@
             "address": "3015 30th Ave",
             "city": "Vernon, BC V1T 2C1"
           }
+        },
+        "558521dd-6f8b-455b-8759-a2bf8375b6d1": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rustic-refined-resized-logo_360x_852fbc7a-18b5-4a5d-b7f5-b048ea977c34.png",
+            "address": "10109 Main St",
+            "city": "Summerland, BC V0H 1Z2"
+          }
         }
       },
       "block_order": [
         "548e3305-b04f-4292-8221-722658e46e8e",
-        "95a629e9-814b-4769-bedd-97942b169e56"
+        "95a629e9-814b-4769-bedd-97942b169e56",
+        "558521dd-6f8b-455b-8759-a2bf8375b6d1"
       ],
       "settings": {
         "color_scheme": "accent-2",
