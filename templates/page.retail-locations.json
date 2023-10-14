@@ -655,6 +655,15 @@
             "city": "Vancouver, BC V6H 3R9",
             "url": "https:\/\/www.dragonspace.ca\/"
           }
+        },
+        "43026621-d758-40eb-a629-cca44735b28d": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dino-lab.png",
+            "address": "#100 - 43 & 45 Erie St",
+            "city": "Victoria, BC V8V 1P8",
+            "url": "https:\/\/www.dinolabinc.ca\/"
+          }
         }
       },
       "block_order": [
@@ -673,7 +682,8 @@
         "283486ff-b96d-4c1a-9963-1028ec8f6844",
         "42ccbbab-9797-4ade-9646-fda292f439ff",
         "c5e3b268-fc98-40ac-a364-0d69aa2e6467",
-        "6afe89f5-9949-47b7-b6d6-4b52c0a6656c"
+        "6afe89f5-9949-47b7-b6d6-4b52c0a6656c",
+        "43026621-d758-40eb-a629-cca44735b28d"
       ],
       "settings": {
         "color_scheme": "accent-2",
