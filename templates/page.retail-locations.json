@@ -974,10 +974,10 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/craft_culture_grey_logo.png",
-            "market_dates": "",
+            "market_dates": "Event Dates TBD",
             "market_times": "",
-            "address": "Event Dates TBD",
-            "city": "551 Recreation AveKelowna, BC V1Y 7V5",
+            "address": "551 Recreation Ave",
+            "city": "Kelowna, BC V1Y 7V5",
             "url": "http:\/\/www.craftculture.ca\/"
           }
         }
