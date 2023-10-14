@@ -682,6 +682,15 @@
             "city": "Burlington, ON L7M 3Z5",
             "url": "https:\/\/www.learningtreecanada.com\/"
           }
+        },
+        "7ea22637-ff3a-4b0f-9bd5-3173d2fac39b": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/once-upon-kamloops.svg",
+            "address": "#119 - 805 Notre Dame Dr",
+            "city": "Kamloops, BC V2C 5N8",
+            "url": "https:\/\/www.onceuponachild.com\/locations\/kamloops-bc"
+          }
         }
       },
       "block_order": [
@@ -703,7 +712,8 @@
         "6afe89f5-9949-47b7-b6d6-4b52c0a6656c",
         "43026621-d758-40eb-a629-cca44735b28d",
         "f7125525-af1f-4d00-94ac-3a7ccdd41c2c",
-        "da301bfa-e810-4912-9d0a-843a661f3522"
+        "da301bfa-e810-4912-9d0a-843a661f3522",
+        "7ea22637-ff3a-4b0f-9bd5-3173d2fac39b"
       ],
       "settings": {
         "color_scheme": "accent-2",
