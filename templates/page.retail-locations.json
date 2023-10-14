@@ -691,6 +691,15 @@
             "city": "Kamloops, BC V2C 5N8",
             "url": "https:\/\/www.onceuponachild.com\/locations\/kamloops-bc"
           }
+        },
+        "a5046157-ff75-4de3-9952-cf86c79ed611": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/marvins-toy-store.webp",
+            "address": "64 A North Williams St",
+            "city": "Downtown Crystal Lake, IL 60014",
+            "url": "https:\/\/www.marvinstoystore.com\/"
+          }
         }
       },
       "block_order": [
@@ -713,7 +722,8 @@
         "43026621-d758-40eb-a629-cca44735b28d",
         "f7125525-af1f-4d00-94ac-3a7ccdd41c2c",
         "da301bfa-e810-4912-9d0a-843a661f3522",
-        "7ea22637-ff3a-4b0f-9bd5-3173d2fac39b"
+        "7ea22637-ff3a-4b0f-9bd5-3173d2fac39b",
+        "a5046157-ff75-4de3-9952-cf86c79ed611"
       ],
       "settings": {
         "color_scheme": "accent-2",
