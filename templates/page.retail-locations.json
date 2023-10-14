@@ -388,6 +388,15 @@
             "city": "Prince Rupert, BC V8J 1A2",
             "url": "https:\/\/seahorsetradingcompany.com\/"
           }
+        },
+        "5b5679ef-ae75-485b-a2cc-f2a8ba7acaeb": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/medicine_centre_logo.jpg",
+            "address": "203 - 495 Trunk Road",
+            "city": "Bowen Island, BC V0N 1G0",
+            "url": "https:\/\/www.medicinecentre.com\/cgi\/page.cgi?search_term=Cates+Medicine+Centre+Pharmacy&show_location=1&_id=215&search_type=name"
+          }
         }
       },
       "block_order": [
@@ -431,7 +440,8 @@
         "04469f84-545e-4eb3-8f23-409492cd41d0",
         "4ff6e4c6-5718-430b-8988-a19428b8ce1d",
         "926f53e7-795c-4108-b0a5-8f579910ad04",
-        "21fb236e-41d4-4528-a3ca-235ca8d89758"
+        "21fb236e-41d4-4528-a3ca-235ca8d89758",
+        "5b5679ef-ae75-485b-a2cc-f2a8ba7acaeb"
       ],
       "settings": {
         "color_scheme": "accent-2",
