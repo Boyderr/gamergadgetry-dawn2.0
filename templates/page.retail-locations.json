@@ -325,6 +325,14 @@
             "city": "Woodstock, NY 12498",
             "url": "https:\/\/www.facebook.com\/pages\/category\/Toy-Store\/The-Rare-Bear-446316482097280\/"
           }
+        },
+        "60a194c5-d4b0-4451-b7a5-92bb5d76443b": {
+          "type": "retail-location",
+          "settings": {
+            "address": "#510 - 77 Ave SE, Aisle 3",
+            "city": "Calgary, AB T2H 1C3",
+            "url": "https:\/\/www.growingco.ca\/"
+          }
         }
       },
       "block_order": [
@@ -361,7 +369,8 @@
         "d83a2b06-4f54-4b4e-b09c-04608f158724",
         "c64c37eb-01fd-429f-9ee2-b4babce9ca7c",
         "af6118d2-e047-4f5b-af6d-a6250d8c8239",
-        "414206ff-3d57-4b89-96d4-67bc23dab097"
+        "414206ff-3d57-4b89-96d4-67bc23dab097",
+        "60a194c5-d4b0-4451-b7a5-92bb5d76443b"
       ],
       "settings": {
         "color_scheme": "accent-2",
