@@ -628,6 +628,15 @@
             "city": "Kelowna, BC V1Y 9V8",
             "url": "https:\/\/www.okanaganlifestyle.ca\/"
           }
+        },
+        "42ccbbab-9797-4ade-9646-fda292f439ff": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/treasure-trove.png",
+            "address": "319 Broadway St",
+            "city": "Nakusp, BC V0G 1R0",
+            "url": "https:\/\/www.facebook.com\/people\/Treasure-Trove-Kitchen-Gifts\/100054409964413\/"
+          }
         }
       },
       "block_order": [
@@ -643,7 +652,8 @@
         "7168a503-aebc-4fcf-873e-dac456e3fede",
         "16cf27b5-3935-4e70-83aa-6e1536e184aa",
         "2bf48194-f218-4e63-b237-06f597fbddf8",
-        "283486ff-b96d-4c1a-9963-1028ec8f6844"
+        "283486ff-b96d-4c1a-9963-1028ec8f6844",
+        "42ccbbab-9797-4ade-9646-fda292f439ff"
       ],
       "settings": {
         "color_scheme": "accent-2",
