@@ -798,7 +798,29 @@
         "custom_liquid": "<section class=\"is-flex\"><h2 class=\"section-heading\">LOCAL MARKETS<\/h2><\/section>",
         "color_scheme": "accent-2",
         "padding_top": 0,
-        "padding_bottom": 52
+        "padding_bottom": 44
+      }
+    },
+    "cce8aad7-22c9-4c27-9d48-4545a21a85ab": {
+      "type": "custom-retail-locations-grid",
+      "blocks": {
+        "630366c9-785f-4cde-b341-056dafc02ff8": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kelowna-Farmer_s-and-Crafter_s-Market-Logo-1.png",
+            "address": "Wednesdays and Saturdays (8AM - 1PM)",
+            "city": "1992 Dilworth Dr, Kelowna BC V1Y 9N4",
+            "url": "https:\/\/www.kelownafarmersandcraftersmarket.com\/"
+          }
+        }
+      },
+      "block_order": [
+        "630366c9-785f-4cde-b341-056dafc02ff8"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "padding_top": 0,
+        "padding_bottom": 36
       }
     }
   },
@@ -809,6 +831,7 @@
     "b75c6231-13d4-477f-80c5-101e29f76c72",
     "9e732e5b-544b-465a-8972-71add200c023",
     "d8beb055-4c6b-41ca-bd00-177ea1025488",
-    "f054efbf-c5c9-42e1-80b6-bb904c1bb4bd"
+    "f054efbf-c5c9-42e1-80b6-bb904c1bb4bd",
+    "cce8aad7-22c9-4c27-9d48-4545a21a85ab"
   ]
 }
