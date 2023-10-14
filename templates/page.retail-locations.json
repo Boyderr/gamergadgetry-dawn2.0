@@ -82,6 +82,15 @@
             "city": "Penticton, BC V2A 5C5",
             "url": "https:\/\/www.instagram.com\/canadianhandmadepenticton\/"
           }
+        },
+        "8d8c1ea5-0cfd-403b-b889-bc3f484974be": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/baby_and_me_logo.jpg",
+            "address": "2061 Harvey Ave",
+            "city": "Kelowna, BC V1Y 8M1",
+            "url": "https:\/\/www.babyandme.ca\/"
+          }
         }
       },
       "block_order": [
@@ -91,7 +100,8 @@
         "f7f8c4e7-0569-4e7e-bd74-0623ad3a38a5",
         "896250a2-74e6-438c-938e-363bb1b95d87",
         "901739ab-2a89-41bc-be26-53de1658a529",
-        "18864822-77bf-4484-aacb-f68a7104063c"
+        "18864822-77bf-4484-aacb-f68a7104063c",
+        "8d8c1ea5-0cfd-403b-b889-bc3f484974be"
       ],
       "settings": {
         "color_scheme": "accent-2",
