@@ -766,6 +766,9 @@
     },
     "d8beb055-4c6b-41ca-bd00-177ea1025488": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".retail-locations-cta {display: flex; justify-content: center; gap: 5px;}"
+      ],
       "settings": {
         "custom_liquid": "<strong class=\"retail-locations-cta\">Want to see your store here?<a href=\"mailto:support@gamergadgetry.com\"> Reach out to us!<\/a><\/strong>",
         "color_scheme": "accent-2",
