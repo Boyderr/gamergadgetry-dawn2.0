@@ -370,6 +370,15 @@
             "city": "Regina, SK S4R 3J3",
             "url": "https:\/\/www.onceuponachild.com\/locations\/regina-sk"
           }
+        },
+        "926f53e7-795c-4108-b0a5-8f579910ad04": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/once-upon-st-catharines.jpg",
+            "address": "Suite A15 - 210 Glendale Ave",
+            "city": "St. Catharines, ON L2T 3Y6",
+            "url": "https:\/\/www.onceuponachild.com\/locations\/st-catharines-on"
+          }
         }
       },
       "block_order": [
@@ -411,7 +420,8 @@
         "a46dd53b-3cab-4d1f-8c0b-5514b46707fe",
         "e622ef68-39bc-4a02-9a3e-bab217fea689",
         "04469f84-545e-4eb3-8f23-409492cd41d0",
-        "4ff6e4c6-5718-430b-8988-a19428b8ce1d"
+        "4ff6e4c6-5718-430b-8988-a19428b8ce1d",
+        "926f53e7-795c-4108-b0a5-8f579910ad04"
       ],
       "settings": {
         "color_scheme": "accent-2",
