@@ -329,6 +329,7 @@
         "60a194c5-d4b0-4451-b7a5-92bb5d76443b": {
           "type": "retail-location",
           "settings": {
+            "image": "shopify:\/\/shop_images\/growing-co.webp",
             "address": "#510 - 77 Ave SE, Aisle 3",
             "city": "Calgary, AB T2H 1C3",
             "url": "https:\/\/www.growingco.ca\/"
