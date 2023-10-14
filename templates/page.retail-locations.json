@@ -280,6 +280,15 @@
             "city": "Salmon Arm, BC V1E 1S9",
             "url": "https:\/\/on-alex.myshopify.com\/"
           }
+        },
+        "72302405-1116-4a33-98bb-01c9db877fc9": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/buddies-toys_logo_260x_bc45598c-5cda-4d99-8825-4ccedaffddab.webp",
+            "address": "2494 Beacon Ave",
+            "city": "Sidney, BC V8L 1X8",
+            "url": "https:\/\/buddiestoys.com\/"
+          }
         }
       },
       "block_order": [
@@ -311,7 +320,8 @@
         "45509cf1-a031-4096-a6d5-a45c29e1a46a",
         "5109ba6d-4ba9-4f9f-89cf-8a8a354a7485",
         "e5a35262-8fb2-45c6-8269-207591bbc79c",
-        "e751e77a-8658-45f7-ae4c-8e7e76bc98e5"
+        "e751e77a-8658-45f7-ae4c-8e7e76bc98e5",
+        "72302405-1116-4a33-98bb-01c9db877fc9"
       ],
       "settings": {
         "color_scheme": "accent-2",
