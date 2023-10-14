@@ -700,6 +700,15 @@
             "city": "Downtown Crystal Lake, IL 60014",
             "url": "https:\/\/www.marvinstoystore.com\/"
           }
+        },
+        "ddfd2742-d6b6-4939-968a-7ba407dfccbe": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/red_balloon_logo.png",
+            "address": "158 Craig St",
+            "city": "Duncan, BC V9L 1V9",
+            "url": "https:\/\/theredballoon.ca\/"
+          }
         }
       },
       "block_order": [
@@ -723,7 +732,8 @@
         "f7125525-af1f-4d00-94ac-3a7ccdd41c2c",
         "da301bfa-e810-4912-9d0a-843a661f3522",
         "7ea22637-ff3a-4b0f-9bd5-3173d2fac39b",
-        "a5046157-ff75-4de3-9952-cf86c79ed611"
+        "a5046157-ff75-4de3-9952-cf86c79ed611",
+        "ddfd2742-d6b6-4939-968a-7ba407dfccbe"
       ],
       "settings": {
         "color_scheme": "accent-2",
