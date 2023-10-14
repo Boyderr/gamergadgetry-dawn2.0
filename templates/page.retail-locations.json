@@ -307,6 +307,15 @@
             "city": "Idaho Falls, ID 83402",
             "url": "http:\/\/www.weebeetoys.com\/"
           }
+        },
+        "af6118d2-e047-4f5b-af6d-a6250d8c8239": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cropped-logo-everythingbaby-trns.png",
+            "address": "#102 - 770 Central St E",
+            "city": "Prince George, BC V2M 3B7",
+            "url": "https:\/\/www.everythingbaby.ca\/"
+          }
         }
       },
       "block_order": [
@@ -341,7 +350,8 @@
         "e751e77a-8658-45f7-ae4c-8e7e76bc98e5",
         "72302405-1116-4a33-98bb-01c9db877fc9",
         "d83a2b06-4f54-4b4e-b09c-04608f158724",
-        "c64c37eb-01fd-429f-9ee2-b4babce9ca7c"
+        "c64c37eb-01fd-429f-9ee2-b4babce9ca7c",
+        "af6118d2-e047-4f5b-af6d-a6250d8c8239"
       ],
       "settings": {
         "color_scheme": "accent-2",
