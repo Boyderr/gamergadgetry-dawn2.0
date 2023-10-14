@@ -646,6 +646,15 @@
             "city": "Okotoks, AB T1S 1A6",
             "url": "https:\/\/www.monkeymountain.ca\/"
           }
+        },
+        "6afe89f5-9949-47b7-b6d6-4b52c0a6656c": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dragon-space.png",
+            "address": "#106 - 1551 Johnston St",
+            "city": "Vancouver, BC V6H 3R9",
+            "url": "https:\/\/www.dragonspace.ca\/"
+          }
         }
       },
       "block_order": [
@@ -663,7 +672,8 @@
         "2bf48194-f218-4e63-b237-06f597fbddf8",
         "283486ff-b96d-4c1a-9963-1028ec8f6844",
         "42ccbbab-9797-4ade-9646-fda292f439ff",
-        "c5e3b268-fc98-40ac-a364-0d69aa2e6467"
+        "c5e3b268-fc98-40ac-a364-0d69aa2e6467",
+        "6afe89f5-9949-47b7-b6d6-4b52c0a6656c"
       ],
       "settings": {
         "color_scheme": "accent-2",
