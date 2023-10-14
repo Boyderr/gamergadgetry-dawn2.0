@@ -397,6 +397,15 @@
             "city": "Bowen Island, BC V0N 1G0",
             "url": "https:\/\/www.medicinecentre.com\/cgi\/page.cgi?search_term=Cates+Medicine+Centre+Pharmacy&show_location=1&_id=215&search_type=name"
           }
+        },
+        "a38315b4-ae2f-4923-92f9-e00157cdfa9d": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bc-childrens.png",
+            "address": "4500 Oak St",
+            "city": "Vancouver, BC V6H 3N1",
+            "url": "https:\/\/www.bcchf.ca\/"
+          }
         }
       },
       "block_order": [
@@ -441,7 +450,8 @@
         "4ff6e4c6-5718-430b-8988-a19428b8ce1d",
         "926f53e7-795c-4108-b0a5-8f579910ad04",
         "21fb236e-41d4-4528-a3ca-235ca8d89758",
-        "5b5679ef-ae75-485b-a2cc-f2a8ba7acaeb"
+        "5b5679ef-ae75-485b-a2cc-f2a8ba7acaeb",
+        "a38315b4-ae2f-4923-92f9-e00157cdfa9d"
       ],
       "settings": {
         "color_scheme": "accent-2",
