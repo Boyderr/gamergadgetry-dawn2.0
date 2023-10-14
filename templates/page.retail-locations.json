@@ -556,6 +556,15 @@
             "city": "Ladysmith, BC V9G 1B8",
             "url": "https:\/\/little-otters-den.business.site\/"
           }
+        },
+        "91206ca8-c90b-4360-a29d-59f1c2a8b4a4": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kaos-kids.png",
+            "address": "38068 Cleveland Ave",
+            "city": "Squamish, BC V8B 0B5",
+            "url": "https:\/\/www.kaoskids.ca\/"
+          }
         }
       },
       "block_order": [
@@ -563,7 +572,8 @@
         "af282ba8-9d23-409f-bf48-45bced57b6b6",
         "1ba701d5-0727-49c9-91be-dc71c8212518",
         "b5ef27af-47fd-4ec6-8917-0dbe910c35f5",
-        "f5684319-6697-4a05-bd1f-ed3025923329"
+        "f5684319-6697-4a05-bd1f-ed3025923329",
+        "91206ca8-c90b-4360-a29d-59f1c2a8b4a4"
       ],
       "settings": {
         "color_scheme": "accent-2",
