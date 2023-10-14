@@ -172,6 +172,15 @@
             "city": "Victoria, BC V8R 6P9",
             "url": "https:\/\/www.onceuponachild.com\/locations\/victoria-bc"
           }
+        },
+        "040c7ac8-719d-4b19-bcb8-fad9721f0979": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/armstrong-flower-gift.jpg",
+            "address": "3105 Smith Dr",
+            "city": "Armstrong, BC V0E 1B0",
+            "url": "https:\/\/www.armstrongflowershop.com\/"
+          }
         }
       },
       "block_order": [
@@ -191,7 +200,8 @@
         "250e6fca-af9b-4f3e-a7a6-cff698d3bd10",
         "f3ced8d0-d345-4233-9f63-c7e7f23446b3",
         "12ff515e-164f-4c6a-8ea7-dabf6694c629",
-        "861ffffd-a044-427f-a79c-63b62388f31f"
+        "861ffffd-a044-427f-a79c-63b62388f31f",
+        "040c7ac8-719d-4b19-bcb8-fad9721f0979"
       ],
       "settings": {
         "color_scheme": "accent-2",
