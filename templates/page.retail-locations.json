@@ -361,6 +361,15 @@
             "city": "Regina, SK S4T 1P4",
             "url": "https:\/\/www.groovymama.net\/"
           }
+        },
+        "4ff6e4c6-5718-430b-8988-a19428b8ce1d": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/once-upon-regina.png",
+            "address": "2779 Avonhurst Dr",
+            "city": "Regina, SK S4R 3J3",
+            "url": "https:\/\/www.onceuponachild.com\/locations\/regina-sk"
+          }
         }
       },
       "block_order": [
@@ -401,7 +410,8 @@
         "60a194c5-d4b0-4451-b7a5-92bb5d76443b",
         "a46dd53b-3cab-4d1f-8c0b-5514b46707fe",
         "e622ef68-39bc-4a02-9a3e-bab217fea689",
-        "04469f84-545e-4eb3-8f23-409492cd41d0"
+        "04469f84-545e-4eb3-8f23-409492cd41d0",
+        "4ff6e4c6-5718-430b-8988-a19428b8ce1d"
       ],
       "settings": {
         "color_scheme": "accent-2",
