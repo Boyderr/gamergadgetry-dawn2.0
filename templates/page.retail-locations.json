@@ -100,6 +100,15 @@
             "city": "Kelowna, BC V1Y 2H4",
             "url": "https:\/\/www.globallyfair.ca\/"
           }
+        },
+        "cbfbb911-bae7-4624-8dc1-9ff284f9a215": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ok-science-centre.png",
+            "address": "2704 Highway 6",
+            "city": "Vernon, BC V1T 5G5",
+            "url": "https:\/\/okscience.ca\/"
+          }
         }
       },
       "block_order": [
@@ -111,7 +120,8 @@
         "901739ab-2a89-41bc-be26-53de1658a529",
         "18864822-77bf-4484-aacb-f68a7104063c",
         "8d8c1ea5-0cfd-403b-b889-bc3f484974be",
-        "9dd63f7e-8e6e-4fe7-8a51-236513a01f7c"
+        "9dd63f7e-8e6e-4fe7-8a51-236513a01f7c",
+        "cbfbb911-bae7-4624-8dc1-9ff284f9a215"
       ],
       "settings": {
         "color_scheme": "accent-2",
