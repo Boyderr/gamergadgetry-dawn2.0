@@ -664,6 +664,15 @@
             "city": "Victoria, BC V8V 1P8",
             "url": "https:\/\/www.dinolabinc.ca\/"
           }
+        },
+        "f7125525-af1f-4d00-94ac-3a7ccdd41c2c": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the-kids-cupboard.png",
+            "address": "#3 - 268 Queen St",
+            "city": "Port Perry, ON L9L 1B9",
+            "url": "https:\/\/thekidscupboard.ca\/"
+          }
         }
       },
       "block_order": [
@@ -683,7 +692,8 @@
         "42ccbbab-9797-4ade-9646-fda292f439ff",
         "c5e3b268-fc98-40ac-a364-0d69aa2e6467",
         "6afe89f5-9949-47b7-b6d6-4b52c0a6656c",
-        "43026621-d758-40eb-a629-cca44735b28d"
+        "43026621-d758-40eb-a629-cca44735b28d",
+        "f7125525-af1f-4d00-94ac-3a7ccdd41c2c"
       ],
       "settings": {
         "color_scheme": "accent-2",
