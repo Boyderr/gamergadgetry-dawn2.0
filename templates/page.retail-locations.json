@@ -343,6 +343,15 @@
             "city": "Rossland, BC V0G 1Y0",
             "url": "https:\/\/www.bombshack.ca\/"
           }
+        },
+        "e622ef68-39bc-4a02-9a3e-bab217fea689": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bug_guys.png",
+            "address": "#17 - 10051 BC-97",
+            "city": "Lake Country, BC V4V 1P6",
+            "url": "https:\/\/thebugguyspets.ca\/"
+          }
         }
       },
       "block_order": [
@@ -381,7 +390,8 @@
         "af6118d2-e047-4f5b-af6d-a6250d8c8239",
         "414206ff-3d57-4b89-96d4-67bc23dab097",
         "60a194c5-d4b0-4451-b7a5-92bb5d76443b",
-        "a46dd53b-3cab-4d1f-8c0b-5514b46707fe"
+        "a46dd53b-3cab-4d1f-8c0b-5514b46707fe",
+        "e622ef68-39bc-4a02-9a3e-bab217fea689"
       ],
       "settings": {
         "color_scheme": "accent-2",
