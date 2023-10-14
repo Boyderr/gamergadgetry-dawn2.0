@@ -24,6 +24,8 @@
               <img src="{{ block.settings.image | img_url: 'large' }}">
             </div>
             <div class="retail-grid-text">
+              <p>{{ block.settings.market_dates }}</p>
+              <p>{{ block.settings.market_times }}</p>
               <p>{{ block.settings.address }}</p>
               <p>{{ block.settings.city }}</p>
             </div>
@@ -79,6 +81,16 @@
           "type": "image_picker",
           "id": "image",
           "label": "Select Image"
+        },
+        {
+          "type": "text",
+          "id": "market_dates",
+          "label": "Market Dates (if applicable)"
+        },
+        {
+          "type": "text",
+          "id": "market_times",
+          "label": "Market Times (if applicable)"
         },
         {
           "type": "text",
