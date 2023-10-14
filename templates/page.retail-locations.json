@@ -808,8 +808,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/Kelowna-Farmer_s-and-Crafter_s-Market-Logo-1.png",
-            "address": "Wednesdays and Saturdays<br>(8AM - 1PM)",
-            "city": "1992 Dilworth Dr<br>Kelowna, BC V1Y 9N4",
+            "address": "Wednesdays and Saturdays(8AM - 1PM)",
+            "city": "1992 Dilworth DrKelowna, BC V1Y 9N4",
             "url": "https:\/\/www.kelownafarmersandcraftersmarket.com\/"
           }
         },
@@ -817,15 +817,25 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/vernon-farmers-market.png",
-            "address": "Mondays and Thursdays <br> (8AM - 1PM)",
-            "city": "3445 43rd Ave<br>Vernon, BC V1T 8P5",
+            "address": "Mondays and Thursdays  (8AM - 1PM)",
+            "city": "3445 43rd AveVernon, BC V1T 8P5",
             "url": "https:\/\/vernonfarmersmarket.ca\/"
+          }
+        },
+        "e750b8b5-4f46-463f-a0d6-1763dc912ca5": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/craft_culture_grey_logo.png",
+            "address": "Event Dates TBD",
+            "city": "551 Recreation Ave<br>Kelowna, BC V1Y 7V5",
+            "url": ""
           }
         }
       },
       "block_order": [
         "630366c9-785f-4cde-b341-056dafc02ff8",
-        "d8ba9f31-c4b7-42c6-a22b-546302e0d28b"
+        "d8ba9f31-c4b7-42c6-a22b-546302e0d28b",
+        "e750b8b5-4f46-463f-a0d6-1763dc912ca5"
       ],
       "settings": {
         "color_scheme": "accent-2",
