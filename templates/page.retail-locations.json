@@ -27,10 +27,19 @@
             "address": "Orchard Park Shopping Centre 2271 Harvey Avenue",
             "city": "Kelowna, BC V1Y 6H2"
           }
+        },
+        "95a629e9-814b-4769-bedd-97942b169e56": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vernon_teach_and_learn_logo-1920w.png",
+            "address": "3015 30th Ave",
+            "city": "Vernon, BC V1T 2C1"
+          }
         }
       },
       "block_order": [
-        "548e3305-b04f-4292-8221-722658e46e8e"
+        "548e3305-b04f-4292-8221-722658e46e8e",
+        "95a629e9-814b-4769-bedd-97942b169e56"
       ],
       "settings": {
         "color_scheme": "accent-2",
