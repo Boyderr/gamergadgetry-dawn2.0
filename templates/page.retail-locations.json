@@ -262,6 +262,15 @@
             "city": "Nelson, BC V1L 1S8",
             "url": "https:\/\/www.playitagainkids.ca\/"
           }
+        },
+        "e5a35262-8fb2-45c6-8269-207591bbc79c": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grow-fernie.png",
+            "address": "482 8 Ave",
+            "city": "Fernie, BC V0B 1M0",
+            "url": "https:\/\/www.growfernie.com\/"
+          }
         }
       },
       "block_order": [
@@ -291,7 +300,8 @@
         "e0382f21-e6a4-4c95-812c-1b4dac0eec23",
         "abb7afb2-e172-48fb-8943-73586d6233ee",
         "45509cf1-a031-4096-a6d5-a45c29e1a46a",
-        "5109ba6d-4ba9-4f9f-89cf-8a8a354a7485"
+        "5109ba6d-4ba9-4f9f-89cf-8a8a354a7485",
+        "e5a35262-8fb2-45c6-8269-207591bbc79c"
       ],
       "settings": {
         "color_scheme": "accent-2",
