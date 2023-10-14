@@ -451,6 +451,15 @@
             "city": "Regina, SK S4X 4C2",
             "url": "https:\/\/kidsclothingcottage.ca\/"
           }
+        },
+        "03bab58f-b2e5-4d96-9dc8-9ec2e82097a2": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/polka-dot-penguin.webp",
+            "address": "10516 101 Ave",
+            "city": "Fort St John, BC V1J 2B8",
+            "url": "https:\/\/www.facebook.com\/polkadotpenguinparties\/"
+          }
         }
       },
       "block_order": [
@@ -501,7 +510,8 @@
         "f90f54b5-1831-4e55-a337-f8693f5db635",
         "3b23cb3d-e8f6-441d-85a1-33634aeccf13",
         "69be00ad-e18f-4f68-8697-e269e5380d85",
-        "bdce2a0e-033c-408b-b7ba-8186481fabe4"
+        "bdce2a0e-033c-408b-b7ba-8186481fabe4",
+        "03bab58f-b2e5-4d96-9dc8-9ec2e82097a2"
       ],
       "settings": {
         "color_scheme": "accent-2",
