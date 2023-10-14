@@ -406,6 +406,15 @@
             "city": "Vancouver, BC V6H 3N1",
             "url": "https:\/\/www.bcchf.ca\/"
           }
+        },
+        "807b7595-c32c-4888-8b75-84be395245f3": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Neckers-Vectorized-Full-Color-Logo-Only-as-Of.webp",
+            "address": "1591 Hopmeadow St",
+            "city": "Simsbury, CT 06070",
+            "url": "https:\/\/neckerstoyland.com\/"
+          }
         }
       },
       "block_order": [
@@ -451,7 +460,8 @@
         "926f53e7-795c-4108-b0a5-8f579910ad04",
         "21fb236e-41d4-4528-a3ca-235ca8d89758",
         "5b5679ef-ae75-485b-a2cc-f2a8ba7acaeb",
-        "a38315b4-ae2f-4923-92f9-e00157cdfa9d"
+        "a38315b4-ae2f-4923-92f9-e00157cdfa9d",
+        "807b7595-c32c-4888-8b75-84be395245f3"
       ],
       "settings": {
         "color_scheme": "accent-2",
