@@ -181,6 +181,15 @@
             "city": "Armstrong, BC V0E 1B0",
             "url": "https:\/\/www.armstrongflowershop.com\/"
           }
+        },
+        "213fa52c-8500-411d-9af1-5caf88a5fb79": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-cor.png",
+            "address": "West Kelowna",
+            "city": "Vintage View Center",
+            "url": "https:\/\/homecor.ca\/"
+          }
         }
       },
       "block_order": [
@@ -201,7 +210,8 @@
         "f3ced8d0-d345-4233-9f63-c7e7f23446b3",
         "12ff515e-164f-4c6a-8ea7-dabf6694c629",
         "861ffffd-a044-427f-a79c-63b62388f31f",
-        "040c7ac8-719d-4b19-bcb8-fad9721f0979"
+        "040c7ac8-719d-4b19-bcb8-fad9721f0979",
+        "213fa52c-8500-411d-9af1-5caf88a5fb79"
       ],
       "settings": {
         "color_scheme": "accent-2",
