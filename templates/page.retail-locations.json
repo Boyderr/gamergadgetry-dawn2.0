@@ -442,6 +442,15 @@
             "city": "Calgary, AB T2H 0E8",
             "url": "https:\/\/castletoys.ca\/"
           }
+        },
+        "bdce2a0e-033c-408b-b7ba-8186481fabe4": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kids-clothing-cottage.png",
+            "address": "6338 Rochdale Blvd",
+            "city": "Regina, SK S4X 4C2",
+            "url": "https:\/\/kidsclothingcottage.ca\/"
+          }
         }
       },
       "block_order": [
@@ -491,7 +500,8 @@
         "807b7595-c32c-4888-8b75-84be395245f3",
         "f90f54b5-1831-4e55-a337-f8693f5db635",
         "3b23cb3d-e8f6-441d-85a1-33634aeccf13",
-        "69be00ad-e18f-4f68-8697-e269e5380d85"
+        "69be00ad-e18f-4f68-8697-e269e5380d85",
+        "bdce2a0e-033c-408b-b7ba-8186481fabe4"
       ],
       "settings": {
         "color_scheme": "accent-2",
