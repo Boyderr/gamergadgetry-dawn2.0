@@ -529,11 +529,21 @@
             "city": "Kaslo, BC V0G 1M0",
             "url": "https:\/\/figmentscanada.com\/"
           }
+        },
+        "1ba701d5-0727-49c9-91be-dc71c8212518": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/discovery-hut.png",
+            "address": "#220d 6455 Macleod Trail SW Chinook Centre",
+            "city": "Calgary, AB T2H 0K9",
+            "url": "https:\/\/thediscoveryhut.com\/"
+          }
         }
       },
       "block_order": [
         "1be9d9a1-26d9-474e-9953-5dbe4d467562",
-        "af282ba8-9d23-409f-bf48-45bced57b6b6"
+        "af282ba8-9d23-409f-bf48-45bced57b6b6",
+        "1ba701d5-0727-49c9-91be-dc71c8212518"
       ],
       "settings": {
         "color_scheme": "accent-2",
