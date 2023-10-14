@@ -3,7 +3,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        ".rte {display: flex;}"
+        ".rte .retail-locations-cta {display: flex; justify-content: center;}"
       ],
       "settings": {
         "color_scheme": "accent-2",
