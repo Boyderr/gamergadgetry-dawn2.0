@@ -524,9 +524,10 @@
         "af282ba8-9d23-409f-bf48-45bced57b6b6": {
           "type": "retail-location",
           "settings": {
-            "address": "",
-            "city": "",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/figments.png",
+            "address": "408 Front St",
+            "city": "Kaslo, BC V0G 1M0",
+            "url": "https:\/\/figmentscanada.com\/"
           }
         }
       },
