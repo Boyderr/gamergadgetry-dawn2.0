@@ -1,0 +1,42 @@
+.retail-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    grid-gap: 50px;
+}
+
+a {
+    color: #008e94;
+    text-decoration: none;
+    background: transparent;
+}
+
+.retail-grid-item {
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.retail-grid-img {
+    height: 120px;
+    padding-bottom: 20px;
+}
+
+.retail-grid-img img {
+    object-fit: contain;
+    height: -webkit-fill-available;
+    max-width: 260px;
+    max-height: 120px;
+    position: relative;
+    top: 100%;
+    transform: translateY(-100%);
+}
+
+.retail-grid-text {
+    max-width: 270px;
+    margin: auto;
+}
+
+p {
+    margin: 0;
+}
