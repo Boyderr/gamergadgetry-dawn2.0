@@ -792,7 +792,7 @@
       "type": "custom-liquid",
       "custom_css": [
         ".is-flex {display: flex; justify-content: center;}",
-        ".section-heading {color: #008e94; }"
+        "h2 {color: #008e94;}"
       ],
       "settings": {
         "custom_liquid": "<section class=\"is-flex\"><h2 class=\"section-heading\">LOCAL MARKETS<\/h2><\/section>",
