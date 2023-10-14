@@ -154,6 +154,15 @@
             "city": "Armstrong, BC V0E 1B8",
             "url": "https:\/\/www.logbarn1912.ca\/"
           }
+        },
+        "12ff515e-164f-4c6a-8ea7-dabf6694c629": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/little-earth-childrens-store.png",
+            "address": "1020 Commercial Dr",
+            "city": "Vancouver, BC V5L 3W9",
+            "url": "https:\/\/littleearthvancouver.com\/"
+          }
         }
       },
       "block_order": [
@@ -171,7 +180,8 @@
         "bf1ab674-092c-4e9a-a9b9-1113027e15d7",
         "b910bceb-9636-4e07-8684-99da17c4bd31",
         "250e6fca-af9b-4f3e-a7a6-cff698d3bd10",
-        "f3ced8d0-d345-4233-9f63-c7e7f23446b3"
+        "f3ced8d0-d345-4233-9f63-c7e7f23446b3",
+        "12ff515e-164f-4c6a-8ea7-dabf6694c629"
       ],
       "settings": {
         "color_scheme": "accent-2",
