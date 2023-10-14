@@ -3,7 +3,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-
+        ".rte {display: flex;}"
       ],
       "settings": {
         "color_scheme": "accent-2",
