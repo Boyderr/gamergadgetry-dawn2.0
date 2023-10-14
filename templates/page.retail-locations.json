@@ -424,6 +424,15 @@
             "city": "Bowen Island, BC V0N 1G0",
             "url": "https:\/\/www.unionsteamshipmarina.com\/"
           }
+        },
+        "3b23cb3d-e8f6-441d-85a1-33634aeccf13": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/toad-hall-toys.jpg",
+            "address": "54 Arthur St",
+            "city": "Winnipeg, MB R3B 1G7",
+            "url": "https:\/\/www.toadhalltoys.ca\/"
+          }
         }
       },
       "block_order": [
@@ -471,7 +480,8 @@
         "5b5679ef-ae75-485b-a2cc-f2a8ba7acaeb",
         "a38315b4-ae2f-4923-92f9-e00157cdfa9d",
         "807b7595-c32c-4888-8b75-84be395245f3",
-        "f90f54b5-1831-4e55-a337-f8693f5db635"
+        "f90f54b5-1831-4e55-a337-f8693f5db635",
+        "3b23cb3d-e8f6-441d-85a1-33634aeccf13"
       ],
       "settings": {
         "color_scheme": "accent-2",
