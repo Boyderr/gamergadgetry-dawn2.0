@@ -244,6 +244,15 @@
             "city": "Coquitlam, BC V3K 6Y6",
             "url": "https:\/\/www.onceuponachild.com\/locations\/coquitlam-bc"
           }
+        },
+        "45509cf1-a031-4096-a6d5-a45c29e1a46a": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/once-upon-langley.jpg",
+            "address": "#104 - 20121 Willowbrook Dr",
+            "city": "Langley Township, BC V2Y 0L3",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -271,7 +280,8 @@
         "3660dac9-bbc2-4982-888a-cf57ca1f3a74",
         "57471167-8110-40d3-9eee-fa3e52037890",
         "e0382f21-e6a4-4c95-812c-1b4dac0eec23",
-        "abb7afb2-e172-48fb-8943-73586d6233ee"
+        "abb7afb2-e172-48fb-8943-73586d6233ee",
+        "45509cf1-a031-4096-a6d5-a45c29e1a46a"
       ],
       "settings": {
         "color_scheme": "accent-2",
