@@ -127,6 +127,15 @@
             "city": "Kelowna, BC V1Y 8R6",
             "url": "https:\/\/www.sylvanlearning.com\/"
           }
+        },
+        "b910bceb-9636-4e07-8684-99da17c4bd31": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/odin-books.jpg",
+            "address": "108 East Broadway",
+            "city": "Vancouver, BC V5T 1V9",
+            "url": "https:\/\/odinbooks.com\/"
+          }
         }
       },
       "block_order": [
@@ -141,7 +150,8 @@
         "9dd63f7e-8e6e-4fe7-8a51-236513a01f7c",
         "cbfbb911-bae7-4624-8dc1-9ff284f9a215",
         "52159c5f-322b-40b2-a33d-ff28393593b1",
-        "bf1ab674-092c-4e9a-a9b9-1113027e15d7"
+        "bf1ab674-092c-4e9a-a9b9-1113027e15d7",
+        "b910bceb-9636-4e07-8684-99da17c4bd31"
       ],
       "settings": {
         "color_scheme": "accent-2",
