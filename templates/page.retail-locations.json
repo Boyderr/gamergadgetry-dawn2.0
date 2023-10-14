@@ -718,6 +718,15 @@
             "city": "Guelph, ON N1H 2N6",
             "url": "https:\/\/simplywonderfultoys.ca\/"
           }
+        },
+        "e53c8507-a1ef-415e-a8a7-e417245c643f": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/naramata-general-store-logo.svg",
+            "address": "219 Robinson Ave",
+            "city": "Naramata, BC V0H 1N0",
+            "url": "https:\/\/www.naramata.store\/"
+          }
         }
       },
       "block_order": [
@@ -743,7 +752,8 @@
         "7ea22637-ff3a-4b0f-9bd5-3173d2fac39b",
         "a5046157-ff75-4de3-9952-cf86c79ed611",
         "ddfd2742-d6b6-4939-968a-7ba407dfccbe",
-        "576688b9-89ae-4a3b-8c68-4fa922b44f64"
+        "576688b9-89ae-4a3b-8c68-4fa922b44f64",
+        "e53c8507-a1ef-415e-a8a7-e417245c643f"
       ],
       "settings": {
         "color_scheme": "accent-2",
