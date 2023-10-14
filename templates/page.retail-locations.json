@@ -460,6 +460,15 @@
             "city": "Fort St John, BC V1J 2B8",
             "url": "https:\/\/www.facebook.com\/polkadotpenguinparties\/"
           }
+        },
+        "90e4cc8e-7b6f-419d-8bf3-ea87d8e7074e": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/figments.png",
+            "address": "408 Front St",
+            "city": "Kaslo, BC V0G 1M0",
+            "url": "https:\/\/figmentscanada.com\/"
+          }
         }
       },
       "block_order": [
@@ -511,7 +520,8 @@
         "3b23cb3d-e8f6-441d-85a1-33634aeccf13",
         "69be00ad-e18f-4f68-8697-e269e5380d85",
         "bdce2a0e-033c-408b-b7ba-8186481fabe4",
-        "03bab58f-b2e5-4d96-9dc8-9ec2e82097a2"
+        "03bab58f-b2e5-4d96-9dc8-9ec2e82097a2",
+        "90e4cc8e-7b6f-419d-8bf3-ea87d8e7074e"
       ],
       "settings": {
         "color_scheme": "accent-2",
