@@ -379,6 +379,15 @@
             "city": "St. Catharines, ON L2T 3Y6",
             "url": "https:\/\/www.onceuponachild.com\/locations\/st-catharines-on"
           }
+        },
+        "21fb236e-41d4-4528-a3ca-235ca8d89758": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/seahorse-trading-company_third_party_logo.jpg",
+            "address": "215 Cow Bay Rd",
+            "city": "Prince Rupert, BC V8J 1A2",
+            "url": "https:\/\/seahorsetradingcompany.com\/"
+          }
         }
       },
       "block_order": [
@@ -421,7 +430,8 @@
         "e622ef68-39bc-4a02-9a3e-bab217fea689",
         "04469f84-545e-4eb3-8f23-409492cd41d0",
         "4ff6e4c6-5718-430b-8988-a19428b8ce1d",
-        "926f53e7-795c-4108-b0a5-8f579910ad04"
+        "926f53e7-795c-4108-b0a5-8f579910ad04",
+        "21fb236e-41d4-4528-a3ca-235ca8d89758"
       ],
       "settings": {
         "color_scheme": "accent-2",
