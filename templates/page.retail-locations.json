@@ -565,6 +565,15 @@
             "city": "Squamish, BC V8B 0B5",
             "url": "https:\/\/www.kaoskids.ca\/"
           }
+        },
+        "295b0255-f423-4e40-971e-9194b92393a9": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vcg-logo-horizontal.png",
+            "address": "578 Carrall St",
+            "city": "Vancouver, BC V6B 5K2",
+            "url": "https:\/\/vancouverchinesegarden.com\/"
+          }
         }
       },
       "block_order": [
@@ -573,7 +582,8 @@
         "1ba701d5-0727-49c9-91be-dc71c8212518",
         "b5ef27af-47fd-4ec6-8917-0dbe910c35f5",
         "f5684319-6697-4a05-bd1f-ed3025923329",
-        "91206ca8-c90b-4360-a29d-59f1c2a8b4a4"
+        "91206ca8-c90b-4360-a29d-59f1c2a8b4a4",
+        "295b0255-f423-4e40-971e-9194b92393a9"
       ],
       "settings": {
         "color_scheme": "accent-2",
