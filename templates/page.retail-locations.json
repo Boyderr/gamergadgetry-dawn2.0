@@ -610,6 +610,15 @@
             "city": "Invermere, BC V0A 1A0",
             "url": "https:\/\/www.facebook.com\/2007donkey\/"
           }
+        },
+        "2bf48194-f218-4e63-b237-06f597fbddf8": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/whoola-toys.webp",
+            "address": "4359 Main St",
+            "city": "Whistler, BC V0N 1B4",
+            "url": "https:\/\/whoolatoys.ca\/"
+          }
         }
       },
       "block_order": [
@@ -623,7 +632,8 @@
         "779d984e-ce8b-44b5-9513-dd8edecf77f1",
         "88a5122b-1a0e-4ca9-964e-4a656dc04e9e",
         "7168a503-aebc-4fcf-873e-dac456e3fede",
-        "16cf27b5-3935-4e70-83aa-6e1536e184aa"
+        "16cf27b5-3935-4e70-83aa-6e1536e184aa",
+        "2bf48194-f218-4e63-b237-06f597fbddf8"
       ],
       "settings": {
         "color_scheme": "accent-2",
