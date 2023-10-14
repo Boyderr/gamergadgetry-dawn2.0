@@ -163,6 +163,15 @@
             "city": "Vancouver, BC V5L 3W9",
             "url": "https:\/\/littleearthvancouver.com\/"
           }
+        },
+        "861ffffd-a044-427f-a79c-63b62388f31f": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/once-upon-a-child-victoria.png",
+            "address": "1563 Pandora Ave",
+            "city": "Victoria, BC V8R 6P9",
+            "url": "https:\/\/www.onceuponachild.com\/locations\/victoria-bc"
+          }
         }
       },
       "block_order": [
@@ -181,7 +190,8 @@
         "b910bceb-9636-4e07-8684-99da17c4bd31",
         "250e6fca-af9b-4f3e-a7a6-cff698d3bd10",
         "f3ced8d0-d345-4233-9f63-c7e7f23446b3",
-        "12ff515e-164f-4c6a-8ea7-dabf6694c629"
+        "12ff515e-164f-4c6a-8ea7-dabf6694c629",
+        "861ffffd-a044-427f-a79c-63b62388f31f"
       ],
       "settings": {
         "color_scheme": "accent-2",
