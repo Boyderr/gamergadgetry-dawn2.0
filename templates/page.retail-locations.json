@@ -812,10 +812,20 @@
             "city": "1992 Dilworth Dr, Kelowna BC V1Y 9N4",
             "url": "https:\/\/www.kelownafarmersandcraftersmarket.com\/"
           }
+        },
+        "d8ba9f31-c4b7-42c6-a22b-546302e0d28b": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vernon-farmers-market.png",
+            "address": "Mondays and Thursdays <br> (8AM - 1PM)",
+            "city": "3445 43rd Ave<br>Vernon, BC V1T 8P5",
+            "url": "https:\/\/vernonfarmersmarket.ca\/"
+          }
         }
       },
       "block_order": [
-        "630366c9-785f-4cde-b341-056dafc02ff8"
+        "630366c9-785f-4cde-b341-056dafc02ff8",
+        "d8ba9f31-c4b7-42c6-a22b-546302e0d28b"
       ],
       "settings": {
         "color_scheme": "accent-2",
