@@ -963,10 +963,10 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/vernon-farmers-market.png",
-            "market_dates": "",
-            "market_times": "",
-            "address": "Mondays and Thursdays  (8AM - 1PM)",
-            "city": "3445 43rd AveVernon, BC V1T 8P5",
+            "market_dates": "Mondays and Thursdays",
+            "market_times": "(8AM - 1PM)",
+            "address": "3445 43rd Ave",
+            "city": "Vernon, BC V1T 8P5",
             "url": "https:\/\/vernonfarmersmarket.ca\/"
           }
         },
