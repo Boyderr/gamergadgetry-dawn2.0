@@ -217,6 +217,15 @@
             "city": "Penticton, BC V2A 5B2",
             "url": "https:\/\/tickleberrys.com\/downtown-penticton\/"
           }
+        },
+        "57471167-8110-40d3-9eee-fa3e52037890": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lagoon-baby.webp",
+            "address": "22770 Lougheed Hwy",
+            "city": "Maple Ridge, BC V2X 2V6",
+            "url": "https:\/\/www.lagoonbaby.com\/"
+          }
         }
       },
       "block_order": [
@@ -241,7 +250,8 @@
         "213fa52c-8500-411d-9af1-5caf88a5fb79",
         "62c15aeb-dfc9-49d3-9dd2-354f66947685",
         "0c272544-55cc-416c-9e9d-c77209443b4a",
-        "3660dac9-bbc2-4982-888a-cf57ca1f3a74"
+        "3660dac9-bbc2-4982-888a-cf57ca1f3a74",
+        "57471167-8110-40d3-9eee-fa3e52037890"
       ],
       "settings": {
         "color_scheme": "accent-2",
