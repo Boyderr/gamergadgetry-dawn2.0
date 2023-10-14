@@ -3,7 +3,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        ".rte .retail-locations-cta {display: flex; justify-content: center; gap: 5px;}"
+
       ],
       "settings": {
         "color_scheme": "accent-2",
@@ -763,12 +763,22 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
+    },
+    "d8beb055-4c6b-41ca-bd00-177ea1025488": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<strong class=\"retail-locations-cta\">Want to see your store here?<a href=\"mailto:support@gamergadgetry.com\"> Reach out to us!<\/a><\/strong>",
+        "color_scheme": "accent-2",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "0b02a2cc-8135-4aa7-b403-579fe8d4b6d5",
     "b75c6231-13d4-477f-80c5-101e29f76c72",
-    "9e732e5b-544b-465a-8972-71add200c023"
+    "9e732e5b-544b-465a-8972-71add200c023",
+    "d8beb055-4c6b-41ca-bd00-177ea1025488"
   ]
 }
