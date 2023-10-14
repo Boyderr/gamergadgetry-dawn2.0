@@ -637,6 +637,15 @@
             "city": "Nakusp, BC V0G 1R0",
             "url": "https:\/\/www.facebook.com\/people\/Treasure-Trove-Kitchen-Gifts\/100054409964413\/"
           }
+        },
+        "c5e3b268-fc98-40ac-a364-0d69aa2e6467": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/monkey-mountain.png",
+            "address": "30 McRae St",
+            "city": "Okotoks, AB T1S 1A6",
+            "url": "https:\/\/www.monkeymountain.ca\/"
+          }
         }
       },
       "block_order": [
@@ -653,7 +662,8 @@
         "16cf27b5-3935-4e70-83aa-6e1536e184aa",
         "2bf48194-f218-4e63-b237-06f597fbddf8",
         "283486ff-b96d-4c1a-9963-1028ec8f6844",
-        "42ccbbab-9797-4ade-9646-fda292f439ff"
+        "42ccbbab-9797-4ade-9646-fda292f439ff",
+        "c5e3b268-fc98-40ac-a364-0d69aa2e6467"
       ],
       "settings": {
         "color_scheme": "accent-2",
