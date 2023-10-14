@@ -118,6 +118,15 @@
             "city": "Kelowna, BC V1X 7G9",
             "url": "https:\/\/www.onceuponachild.com\/home"
           }
+        },
+        "bf1ab674-092c-4e9a-a9b9-1113027e15d7": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sylvan-learning.png",
+            "address": "2065 Enterprise Way",
+            "city": "Kelowna, BC V1Y 8R6",
+            "url": "https:\/\/www.sylvanlearning.com\/"
+          }
         }
       },
       "block_order": [
@@ -131,7 +140,8 @@
         "8d8c1ea5-0cfd-403b-b889-bc3f484974be",
         "9dd63f7e-8e6e-4fe7-8a51-236513a01f7c",
         "cbfbb911-bae7-4624-8dc1-9ff284f9a215",
-        "52159c5f-322b-40b2-a33d-ff28393593b1"
+        "52159c5f-322b-40b2-a33d-ff28393593b1",
+        "bf1ab674-092c-4e9a-a9b9-1113027e15d7"
       ],
       "settings": {
         "color_scheme": "accent-2",
