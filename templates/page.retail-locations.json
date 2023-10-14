@@ -583,6 +583,15 @@
             "city": "Port Elgin, ON N0H 2C0",
             "url": "https:\/\/www.turtlecrossingstoystore.ca\/"
           }
+        },
+        "88a5122b-1a0e-4ca9-964e-4a656dc04e9e": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/go-green-baby.png",
+            "address": "293 Division St",
+            "city": "Kingston, ON K7K 3Z7",
+            "url": "https:\/\/go-greenbaby.ca\/"
+          }
         }
       },
       "block_order": [
@@ -593,7 +602,8 @@
         "f5684319-6697-4a05-bd1f-ed3025923329",
         "91206ca8-c90b-4360-a29d-59f1c2a8b4a4",
         "295b0255-f423-4e40-971e-9194b92393a9",
-        "779d984e-ce8b-44b5-9513-dd8edecf77f1"
+        "779d984e-ce8b-44b5-9513-dd8edecf77f1",
+        "88a5122b-1a0e-4ca9-964e-4a656dc04e9e"
       ],
       "settings": {
         "color_scheme": "accent-2",
