@@ -8,7 +8,19 @@
       "settings": {
         "color_scheme": "accent-2",
         "padding_top": 56,
-        "padding_bottom": 16
+        "padding_bottom": 4
+      }
+    },
+    "715b91c5-309c-4bf5-a3e6-03e9660e1459": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".retail-locations-cta {display: flex; justify-content: center; gap: 5px;}"
+      ],
+      "settings": {
+        "custom_liquid": "<strong class=\"retail-locations-cta\">Want to see your store here?<a href=\"mailto:support@gamergadgetry.com\"> Reach out to us!<\/a><\/strong>",
+        "color_scheme": "accent-2",
+        "padding_top": 0,
+        "padding_bottom": 12
       }
     },
     "0b02a2cc-8135-4aa7-b403-579fe8d4b6d5": {
@@ -772,13 +784,14 @@
       "settings": {
         "custom_liquid": "<strong class=\"retail-locations-cta\">Want to see your store here?<a href=\"mailto:support@gamergadgetry.com\"> Reach out to us!<\/a><\/strong>",
         "color_scheme": "accent-2",
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 52
       }
     }
   },
   "order": [
     "main",
+    "715b91c5-309c-4bf5-a3e6-03e9660e1459",
     "0b02a2cc-8135-4aa7-b403-579fe8d4b6d5",
     "b75c6231-13d4-477f-80c5-101e29f76c72",
     "9e732e5b-544b-465a-8972-71add200c023",
