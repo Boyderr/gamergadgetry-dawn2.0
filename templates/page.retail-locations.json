@@ -226,6 +226,15 @@
             "city": "Maple Ridge, BC V2X 2V6",
             "url": "https:\/\/www.lagoonbaby.com\/"
           }
+        },
+        "e0382f21-e6a4-4c95-812c-1b4dac0eec23": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/camelot-kids.jpg",
+            "address": "1496 Cartwright St",
+            "city": "Vancouver, BC V6H 3Y5",
+            "url": "https:\/\/camelotkids.com\/"
+          }
         }
       },
       "block_order": [
@@ -251,7 +260,8 @@
         "62c15aeb-dfc9-49d3-9dd2-354f66947685",
         "0c272544-55cc-416c-9e9d-c77209443b4a",
         "3660dac9-bbc2-4982-888a-cf57ca1f3a74",
-        "57471167-8110-40d3-9eee-fa3e52037890"
+        "57471167-8110-40d3-9eee-fa3e52037890",
+        "e0382f21-e6a4-4c95-812c-1b4dac0eec23"
       ],
       "settings": {
         "color_scheme": "accent-2",
