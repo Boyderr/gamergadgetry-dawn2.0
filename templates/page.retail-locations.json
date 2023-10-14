@@ -619,6 +619,15 @@
             "city": "Whistler, BC V0N 1B4",
             "url": "https:\/\/whoolatoys.ca\/"
           }
+        },
+        "283486ff-b96d-4c1a-9963-1028ec8f6844": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/okanagan-lifestyle.png",
+            "address": "#115 - 1295 Cannery Ln",
+            "city": "Kelowna, BC V1Y 9V8",
+            "url": "https:\/\/www.okanaganlifestyle.ca\/"
+          }
         }
       },
       "block_order": [
@@ -633,7 +642,8 @@
         "88a5122b-1a0e-4ca9-964e-4a656dc04e9e",
         "7168a503-aebc-4fcf-873e-dac456e3fede",
         "16cf27b5-3935-4e70-83aa-6e1536e184aa",
-        "2bf48194-f218-4e63-b237-06f597fbddf8"
+        "2bf48194-f218-4e63-b237-06f597fbddf8",
+        "283486ff-b96d-4c1a-9963-1028ec8f6844"
       ],
       "settings": {
         "color_scheme": "accent-2",
