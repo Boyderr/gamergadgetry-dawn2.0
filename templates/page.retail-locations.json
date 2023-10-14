@@ -43,12 +43,21 @@
             "address": "10109 Main St",
             "city": "Summerland, BC V0H 1Z2"
           }
+        },
+        "f7f8c4e7-0569-4e7e-bd74-0623ad3a38a5": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/purple.png",
+            "address": "#149 - 1151 10th Ave SW",
+            "city": "Salmon Arm, BC V1E 1T3"
+          }
         }
       },
       "block_order": [
         "548e3305-b04f-4292-8221-722658e46e8e",
         "95a629e9-814b-4769-bedd-97942b169e56",
-        "558521dd-6f8b-455b-8759-a2bf8375b6d1"
+        "558521dd-6f8b-455b-8759-a2bf8375b6d1",
+        "f7f8c4e7-0569-4e7e-bd74-0623ad3a38a5"
       ],
       "settings": {
         "color_scheme": "accent-2",
