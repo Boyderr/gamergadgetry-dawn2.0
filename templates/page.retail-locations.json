@@ -334,6 +334,15 @@
             "city": "Calgary, AB T2H 1C3",
             "url": "https:\/\/www.growingco.ca\/"
           }
+        },
+        "a46dd53b-3cab-4d1f-8c0b-5514b46707fe": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NewBombshack_Logo_1626713131.webp",
+            "address": "2076 Columbia Ave",
+            "city": "Rossland, BC V0G 1Y0",
+            "url": "https:\/\/www.bombshack.ca\/"
+          }
         }
       },
       "block_order": [
@@ -371,7 +380,8 @@
         "c64c37eb-01fd-429f-9ee2-b4babce9ca7c",
         "af6118d2-e047-4f5b-af6d-a6250d8c8239",
         "414206ff-3d57-4b89-96d4-67bc23dab097",
-        "60a194c5-d4b0-4451-b7a5-92bb5d76443b"
+        "60a194c5-d4b0-4451-b7a5-92bb5d76443b",
+        "a46dd53b-3cab-4d1f-8c0b-5514b46707fe"
       ],
       "settings": {
         "color_scheme": "accent-2",
