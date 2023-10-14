@@ -39,6 +39,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/loadzatoys.jpg",
+            "market_dates": "",
+            "market_times": "",
             "address": "Orchard Park Shopping Centre 2271 Harvey Avenue",
             "city": "Kelowna, BC V1Y 6H2",
             "url": "https:\/\/loadzatoyz.com\/"
@@ -48,6 +50,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/vernon_teach_and_learn_logo-1920w.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "3015 30th Ave",
             "city": "Vernon, BC V1T 2C1",
             "url": "https:\/\/www.vernonteachandlearn.com\/"
@@ -57,6 +61,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/rustic-refined-resized-logo_360x_852fbc7a-18b5-4a5d-b7f5-b048ea977c34.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "10109 Main St",
             "city": "Summerland, BC V0H 1Z2",
             "url": "https:\/\/rusticandrefined.ca\/"
@@ -66,6 +72,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/rhymes-with-purple.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "#149 - 1151 10th Ave SW",
             "city": "Salmon Arm, BC V1E 1T3",
             "url": "https:\/\/rhymeswithpurple.ca\/"
@@ -75,6 +83,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/ogopogo.jpg",
+            "market_dates": "",
+            "market_times": "",
             "address": "287b Bernard Ave",
             "city": "Kelowna, BC V1Y 6N2",
             "url": "https:\/\/www.ogopogogiftland.com\/"
@@ -84,6 +94,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/quantum.jpg",
+            "market_dates": "",
+            "market_times": "",
             "address": "#15 - 150 Hollywood Road S",
             "city": "Kelowna, BC V1X 3S9",
             "url": "https:\/\/www.quantumgames.ca\/"
@@ -93,6 +105,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/canadian_handmade.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "450 Main St",
             "city": "Penticton, BC V2A 5C5",
             "url": "https:\/\/www.instagram.com\/canadianhandmadepenticton\/"
@@ -102,6 +116,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/baby_and_me_logo.jpg",
+            "market_dates": "",
+            "market_times": "",
             "address": "2061 Harvey Ave",
             "city": "Kelowna, BC V1Y 8M1",
             "url": "https:\/\/www.babyandme.ca\/"
@@ -111,6 +127,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/globally-fair.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "#107 - 3001 Tutt St",
             "city": "Kelowna, BC V1Y 2H4",
             "url": "https:\/\/www.globallyfair.ca\/"
@@ -120,6 +138,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/ok-science-centre.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "2704 Highway 6",
             "city": "Vernon, BC V1T 5G5",
             "url": "https:\/\/okscience.ca\/"
@@ -129,6 +149,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/once_upon_a_child_logo.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "1780 Baron Road",
             "city": "Kelowna, BC V1X 7G9",
             "url": "https:\/\/www.onceuponachild.com\/home"
@@ -138,6 +160,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/sylvan-learning.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "2065 Enterprise Way",
             "city": "Kelowna, BC V1Y 8R6",
             "url": "https:\/\/www.sylvanlearning.com\/"
@@ -147,6 +171,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/odin-books.jpg",
+            "market_dates": "",
+            "market_times": "",
             "address": "108 East Broadway",
             "city": "Vancouver, BC V5T 1V9",
             "url": "https:\/\/odinbooks.com\/"
@@ -156,6 +182,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/tickleberrys.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "1207 Main St",
             "city": "Okanagan Falls, BC V0H 1R4",
             "url": "https:\/\/tickleberrys.com\/"
@@ -165,6 +193,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/log-barn.webp",
+            "market_dates": "",
+            "market_times": "",
             "address": "4782 BC-97A",
             "city": "Armstrong, BC V0E 1B8",
             "url": "https:\/\/www.logbarn1912.ca\/"
@@ -174,6 +204,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/little-earth-childrens-store.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "1020 Commercial Dr",
             "city": "Vancouver, BC V5L 3W9",
             "url": "https:\/\/littleearthvancouver.com\/"
@@ -183,6 +215,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/once-upon-a-child-victoria.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "1563 Pandora Ave",
             "city": "Victoria, BC V8R 6P9",
             "url": "https:\/\/www.onceuponachild.com\/locations\/victoria-bc"
@@ -192,6 +226,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/armstrong-flower-gift.jpg",
+            "market_dates": "",
+            "market_times": "",
             "address": "3105 Smith Dr",
             "city": "Armstrong, BC V0E 1B0",
             "url": "https:\/\/www.armstrongflowershop.com\/"
@@ -201,6 +237,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/home-cor.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "West Kelowna",
             "city": "Vintage View Center",
             "url": "https:\/\/homecor.ca\/"
@@ -210,6 +248,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/Tumbleweed_Toys.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "1201 Summit Dr",
             "city": "Kamloops, BC V2C 6C5",
             "url": "https:\/\/www.tumbleweedtoys.ca\/"
@@ -219,6 +259,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/tourism-kelowna.jpg",
+            "market_dates": "",
+            "market_times": "",
             "address": "238 Queensway",
             "city": "Kelowna, BC V1Y 6S4",
             "url": "https:\/\/www.tourismkelowna.com\/plan\/visitor-centre\/"
@@ -228,6 +270,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/tickleberrys-downtown.jpg",
+            "market_dates": "",
+            "market_times": "",
             "address": "202 Main St",
             "city": "Penticton, BC V2A 5B2",
             "url": "https:\/\/tickleberrys.com\/downtown-penticton\/"
@@ -237,6 +281,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/lagoon-baby.webp",
+            "market_dates": "",
+            "market_times": "",
             "address": "22770 Lougheed Hwy",
             "city": "Maple Ridge, BC V2X 2V6",
             "url": "https:\/\/www.lagoonbaby.com\/"
@@ -246,6 +292,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/camelot-kids.jpg",
+            "market_dates": "",
+            "market_times": "",
             "address": "1496 Cartwright St",
             "city": "Vancouver, BC V6H 3Y5",
             "url": "https:\/\/camelotkids.com\/"
@@ -255,6 +303,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/once-upon-coquitlam.jpg",
+            "market_dates": "",
+            "market_times": "",
             "address": "1300 Woolridge St",
             "city": "Coquitlam, BC V3K 6Y6",
             "url": "https:\/\/www.onceuponachild.com\/locations\/coquitlam-bc"
@@ -264,6 +314,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/once-upon-langley.jpg",
+            "market_dates": "",
+            "market_times": "",
             "address": "#104 - 20121 Willowbrook Dr",
             "city": "Langley Township, BC V2Y 0L3",
             "url": ""
@@ -273,6 +325,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/play-it-again.jpg",
+            "market_dates": "",
+            "market_times": "",
             "address": "458 Ward St",
             "city": "Nelson, BC V1L 1S8",
             "url": "https:\/\/www.playitagainkids.ca\/"
@@ -282,6 +336,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/grow-fernie.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "482 8 Ave",
             "city": "Fernie, BC V0B 1M0",
             "url": "https:\/\/www.growfernie.com\/"
@@ -291,6 +347,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/on-alex.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "#1 - 250 Alexander St NE",
             "city": "Salmon Arm, BC V1E 1S9",
             "url": "https:\/\/on-alex.myshopify.com\/"
@@ -300,6 +358,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/buddies-toys_logo_260x_bc45598c-5cda-4d99-8825-4ccedaffddab.webp",
+            "market_dates": "",
+            "market_times": "",
             "address": "2494 Beacon Ave",
             "city": "Sidney, BC V8L 1X8",
             "url": "https:\/\/buddiestoys.com\/"
@@ -309,6 +369,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/SputtergotchLogos001.jpg",
+            "market_dates": "",
+            "market_times": "",
             "address": "113a Central Ave N",
             "city": "Swift Current, SK S9H 0K9",
             "url": "https:\/\/www.sputtergotchtoys.com\/"
@@ -318,6 +380,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/WeeBee-Logo-2.jpg",
+            "market_dates": "",
+            "market_times": "",
             "address": "492 Shoup Ave",
             "city": "Idaho Falls, ID 83402",
             "url": "http:\/\/www.weebeetoys.com\/"
@@ -327,6 +391,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/cropped-logo-everythingbaby-trns.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "#102 - 770 Central St E",
             "city": "Prince George, BC V2M 3B7",
             "url": "https:\/\/www.everythingbaby.ca\/"
@@ -336,6 +402,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/rare-bear-gifts.jpg",
+            "market_dates": "",
+            "market_times": "",
             "address": "34 Tinker St",
             "city": "Woodstock, NY 12498",
             "url": "https:\/\/www.facebook.com\/pages\/category\/Toy-Store\/The-Rare-Bear-446316482097280\/"
@@ -345,6 +413,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/growing-co.webp",
+            "market_dates": "",
+            "market_times": "",
             "address": "#510 - 77 Ave SE, Aisle 3",
             "city": "Calgary, AB T2H 1C3",
             "url": "https:\/\/www.growingco.ca\/"
@@ -354,6 +424,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/NewBombshack_Logo_1626713131.webp",
+            "market_dates": "",
+            "market_times": "",
             "address": "2076 Columbia Ave",
             "city": "Rossland, BC V0G 1Y0",
             "url": "https:\/\/www.bombshack.ca\/"
@@ -363,6 +435,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/bug_guys.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "#17 - 10051 BC-97",
             "city": "Lake Country, BC V4V 1P6",
             "url": "https:\/\/thebugguyspets.ca\/"
@@ -372,6 +446,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/groovy-mama.webp",
+            "market_dates": "",
+            "market_times": "",
             "address": "3206 13th Ave",
             "city": "Regina, SK S4T 1P4",
             "url": "https:\/\/www.groovymama.net\/"
@@ -381,6 +457,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/once-upon-regina.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "2779 Avonhurst Dr",
             "city": "Regina, SK S4R 3J3",
             "url": "https:\/\/www.onceuponachild.com\/locations\/regina-sk"
@@ -390,6 +468,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/once-upon-st-catharines.jpg",
+            "market_dates": "",
+            "market_times": "",
             "address": "Suite A15 - 210 Glendale Ave",
             "city": "St. Catharines, ON L2T 3Y6",
             "url": "https:\/\/www.onceuponachild.com\/locations\/st-catharines-on"
@@ -399,6 +479,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/seahorse-trading-company_third_party_logo.jpg",
+            "market_dates": "",
+            "market_times": "",
             "address": "215 Cow Bay Rd",
             "city": "Prince Rupert, BC V8J 1A2",
             "url": "https:\/\/seahorsetradingcompany.com\/"
@@ -408,6 +490,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/medicine_centre_logo.jpg",
+            "market_dates": "",
+            "market_times": "",
             "address": "203 - 495 Trunk Road",
             "city": "Bowen Island, BC V0N 1G0",
             "url": "https:\/\/www.medicinecentre.com\/cgi\/page.cgi?search_term=Cates+Medicine+Centre+Pharmacy&show_location=1&_id=215&search_type=name"
@@ -417,6 +501,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/bc-childrens.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "4500 Oak St",
             "city": "Vancouver, BC V6H 3N1",
             "url": "https:\/\/www.bcchf.ca\/"
@@ -426,6 +512,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/Neckers-Vectorized-Full-Color-Logo-Only-as-Of.webp",
+            "market_dates": "",
+            "market_times": "",
             "address": "1591 Hopmeadow St",
             "city": "Simsbury, CT 06070",
             "url": "https:\/\/neckerstoyland.com\/"
@@ -435,6 +523,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/union-steamship-company-logo-flag-transparent.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "431 Bowen Island Trunk Rd",
             "city": "Bowen Island, BC V0N 1G0",
             "url": "https:\/\/www.unionsteamshipmarina.com\/"
@@ -444,6 +534,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/toad-hall-toys.jpg",
+            "market_dates": "",
+            "market_times": "",
             "address": "54 Arthur St",
             "city": "Winnipeg, MB R3B 1G7",
             "url": "https:\/\/www.toadhalltoys.ca\/"
@@ -453,6 +545,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/castle-toys.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "#101 - 5718 1a St SW",
             "city": "Calgary, AB T2H 0E8",
             "url": "https:\/\/castletoys.ca\/"
@@ -462,6 +556,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/kids-clothing-cottage.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "6338 Rochdale Blvd",
             "city": "Regina, SK S4X 4C2",
             "url": "https:\/\/kidsclothingcottage.ca\/"
@@ -531,6 +627,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/polka-dot-penguin.webp",
+            "market_dates": "",
+            "market_times": "",
             "address": "10516 101 Ave",
             "city": "Fort St John, BC V1J 2B8",
             "url": "https:\/\/www.polkadotpenguinparties.com\/"
@@ -540,6 +638,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/figments.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "408 Front St",
             "city": "Kaslo, BC V0G 1M0",
             "url": "https:\/\/figmentscanada.com\/"
@@ -549,6 +649,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/discovery-hut.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "#220d 6455 Macleod Trail SW Chinook Centre",
             "city": "Calgary, AB T2H 0K9",
             "url": "https:\/\/thediscoveryhut.com\/"
@@ -558,6 +660,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/citizen-kid.jpg",
+            "market_dates": "",
+            "market_times": "",
             "address": "230 Locke St S",
             "city": "Hamilton, ON L8P 4B7",
             "url": "https:\/\/citizenkid.ca\/"
@@ -567,6 +671,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/little-otters-den.jpg",
+            "market_dates": "",
+            "market_times": "",
             "address": "436 1st Ave",
             "city": "Ladysmith, BC V9G 1B8",
             "url": "https:\/\/little-otters-den.business.site\/"
@@ -576,6 +682,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/kaos-kids.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "38068 Cleveland Ave",
             "city": "Squamish, BC V8B 0B5",
             "url": "https:\/\/www.kaoskids.ca\/"
@@ -585,6 +693,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/vcg-logo-horizontal.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "578 Carrall St",
             "city": "Vancouver, BC V6B 5K2",
             "url": "https:\/\/vancouverchinesegarden.com\/"
@@ -594,6 +704,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/turtle-crossings.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "650 Goderich St",
             "city": "Port Elgin, ON N0H 2C0",
             "url": "https:\/\/www.turtlecrossingstoystore.ca\/"
@@ -603,6 +715,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/go-green-baby.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "293 Division St",
             "city": "Kingston, ON K7K 3Z7",
             "url": "https:\/\/go-greenbaby.ca\/"
@@ -612,6 +726,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/home-hardware.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "1701 Voght St",
             "city": "Merritt, BC V1K 1B8",
             "url": "https:\/\/www.merritthomehardware.ca\/"
@@ -621,6 +737,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/rainbow-donkey.jpg",
+            "market_dates": "",
+            "market_times": "",
             "address": "#105 - 901 7th Ave",
             "city": "Invermere, BC V0A 1A0",
             "url": "https:\/\/www.facebook.com\/2007donkey\/"
@@ -630,6 +748,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/whoola-toys.webp",
+            "market_dates": "",
+            "market_times": "",
             "address": "4359 Main St",
             "city": "Whistler, BC V0N 1B4",
             "url": "https:\/\/whoolatoys.ca\/"
@@ -639,6 +759,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/okanagan-lifestyle.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "#115 - 1295 Cannery Ln",
             "city": "Kelowna, BC V1Y 9V8",
             "url": "https:\/\/www.okanaganlifestyle.ca\/"
@@ -648,6 +770,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/treasure-trove.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "319 Broadway St",
             "city": "Nakusp, BC V0G 1R0",
             "url": "https:\/\/www.facebook.com\/people\/Treasure-Trove-Kitchen-Gifts\/100054409964413\/"
@@ -657,6 +781,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/monkey-mountain.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "30 McRae St",
             "city": "Okotoks, AB T1S 1A6",
             "url": "https:\/\/www.monkeymountain.ca\/"
@@ -666,6 +792,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/dragon-space.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "#106 - 1551 Johnston St",
             "city": "Vancouver, BC V6H 3R9",
             "url": "https:\/\/www.dragonspace.ca\/"
@@ -675,6 +803,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/dino-lab.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "#100 - 43 & 45 Erie St",
             "city": "Victoria, BC V8V 1P8",
             "url": "https:\/\/www.dinolabinc.ca\/"
@@ -684,6 +814,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/the-kids-cupboard.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "#3 - 268 Queen St",
             "city": "Port Perry, ON L9L 1B9",
             "url": "https:\/\/thekidscupboard.ca\/"
@@ -693,6 +825,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/learning-tree-logo.webp",
+            "market_dates": "",
+            "market_times": "",
             "address": "1450 Headon Rd",
             "city": "Burlington, ON L7M 3Z5",
             "url": "https:\/\/www.learningtreecanada.com\/"
@@ -702,6 +836,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/once-upon-kamloops.svg",
+            "market_dates": "",
+            "market_times": "",
             "address": "#119 - 805 Notre Dame Dr",
             "city": "Kamloops, BC V2C 5N8",
             "url": "https:\/\/www.onceuponachild.com\/locations\/kamloops-bc"
@@ -711,6 +847,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/marvins-toy-store.webp",
+            "market_dates": "",
+            "market_times": "",
             "address": "64 A North Williams St",
             "city": "Downtown Crystal Lake, IL 60014",
             "url": "https:\/\/www.marvinstoystore.com\/"
@@ -720,6 +858,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/red_balloon_logo.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "158 Craig St",
             "city": "Duncan, BC V9L 1V9",
             "url": "https:\/\/theredballoon.ca\/"
@@ -729,6 +869,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/simply-wonderful-toys.webp",
+            "market_dates": "",
+            "market_times": "",
             "address": "10 Paisley St",
             "city": "Guelph, ON N1H 2N6",
             "url": "https:\/\/simplywonderfultoys.ca\/"
@@ -738,6 +880,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/naramata-general-store-logo.svg",
+            "market_dates": "",
+            "market_times": "",
             "address": "219 Robinson Ave",
             "city": "Naramata, BC V0H 1N0",
             "url": "https:\/\/www.naramata.store\/"
@@ -808,8 +952,10 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/Kelowna-Farmer_s-and-Crafter_s-Market-Logo-1.png",
-            "address": "Wednesdays and Saturdays (8AM - 1PM)",
-            "city": "1992 Dilworth Dr Kelowna, BC V1Y 9N4",
+            "market_dates": "Wednesdays and Saturdays",
+            "market_times": "(8AM - 1PM)",
+            "address": "1992 Dilworth Drive",
+            "city": "Kelowna, BC V1Y 9N4",
             "url": "https:\/\/www.kelownafarmersandcraftersmarket.com\/"
           }
         },
@@ -817,6 +963,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/vernon-farmers-market.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "Mondays and Thursdays  (8AM - 1PM)",
             "city": "3445 43rd AveVernon, BC V1T 8P5",
             "url": "https:\/\/vernonfarmersmarket.ca\/"
@@ -826,6 +974,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/craft_culture_grey_logo.png",
+            "market_dates": "",
+            "market_times": "",
             "address": "Event Dates TBD",
             "city": "551 Recreation AveKelowna, BC V1Y 7V5",
             "url": "http:\/\/www.craftculture.ca\/"
