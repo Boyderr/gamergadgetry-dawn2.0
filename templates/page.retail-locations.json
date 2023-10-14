@@ -451,24 +451,6 @@
             "city": "Regina, SK S4X 4C2",
             "url": "https:\/\/kidsclothingcottage.ca\/"
           }
-        },
-        "03bab58f-b2e5-4d96-9dc8-9ec2e82097a2": {
-          "type": "retail-location",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/polka-dot-penguin.webp",
-            "address": "10516 101 Ave",
-            "city": "Fort St John, BC V1J 2B8",
-            "url": "https:\/\/www.facebook.com\/polkadotpenguinparties\/"
-          }
-        },
-        "90e4cc8e-7b6f-419d-8bf3-ea87d8e7074e": {
-          "type": "retail-location",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/figments.png",
-            "address": "408 Front St",
-            "city": "Kaslo, BC V0G 1M0",
-            "url": "https:\/\/figmentscanada.com\/"
-          }
         }
       },
       "block_order": [
@@ -519,9 +501,38 @@
         "f90f54b5-1831-4e55-a337-f8693f5db635",
         "3b23cb3d-e8f6-441d-85a1-33634aeccf13",
         "69be00ad-e18f-4f68-8697-e269e5380d85",
-        "bdce2a0e-033c-408b-b7ba-8186481fabe4",
-        "03bab58f-b2e5-4d96-9dc8-9ec2e82097a2",
-        "90e4cc8e-7b6f-419d-8bf3-ea87d8e7074e"
+        "bdce2a0e-033c-408b-b7ba-8186481fabe4"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "9e732e5b-544b-465a-8972-71add200c023": {
+      "type": "custom-retail-locations-grid",
+      "blocks": {
+        "1be9d9a1-26d9-474e-9953-5dbe4d467562": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/polka-dot-penguin.webp",
+            "address": "10516 101 Ave",
+            "city": "Fort St John, BC V1J 2B8",
+            "url": "https:\/\/www.polkadotpenguinparties.com\/"
+          }
+        },
+        "af282ba8-9d23-409f-bf48-45bced57b6b6": {
+          "type": "retail-location",
+          "settings": {
+            "address": "",
+            "city": "",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1be9d9a1-26d9-474e-9953-5dbe4d467562",
+        "af282ba8-9d23-409f-bf48-45bced57b6b6"
       ],
       "settings": {
         "color_scheme": "accent-2",
@@ -533,6 +544,7 @@
   "order": [
     "main",
     "0b02a2cc-8135-4aa7-b403-579fe8d4b6d5",
-    "b75c6231-13d4-477f-80c5-101e29f76c72"
+    "b75c6231-13d4-477f-80c5-101e29f76c72",
+    "9e732e5b-544b-465a-8972-71add200c023"
   ]
 }
