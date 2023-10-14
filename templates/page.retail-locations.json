@@ -73,6 +73,15 @@
             "city": "Kelowna, BC V1X 3S9",
             "url": "https:\/\/www.quantumgames.ca\/"
           }
+        },
+        "18864822-77bf-4484-aacb-f68a7104063c": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/canadian_handmade.png",
+            "address": "450 Main St",
+            "city": "Penticton, BC V2A 5C5",
+            "url": "https:\/\/www.instagram.com\/canadianhandmadepenticton\/"
+          }
         }
       },
       "block_order": [
@@ -81,7 +90,8 @@
         "558521dd-6f8b-455b-8759-a2bf8375b6d1",
         "f7f8c4e7-0569-4e7e-bd74-0623ad3a38a5",
         "896250a2-74e6-438c-938e-363bb1b95d87",
-        "901739ab-2a89-41bc-be26-53de1658a529"
+        "901739ab-2a89-41bc-be26-53de1658a529",
+        "18864822-77bf-4484-aacb-f68a7104063c"
       ],
       "settings": {
         "color_scheme": "accent-2",
