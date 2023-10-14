@@ -433,6 +433,15 @@
             "city": "Winnipeg, MB R3B 1G7",
             "url": "https:\/\/www.toadhalltoys.ca\/"
           }
+        },
+        "69be00ad-e18f-4f68-8697-e269e5380d85": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/castle-toys.png",
+            "address": "#101 - 5718 1a St SW",
+            "city": "Calgary, AB T2H 0E8",
+            "url": "https:\/\/castletoys.ca\/"
+          }
         }
       },
       "block_order": [
@@ -481,7 +490,8 @@
         "a38315b4-ae2f-4923-92f9-e00157cdfa9d",
         "807b7595-c32c-4888-8b75-84be395245f3",
         "f90f54b5-1831-4e55-a337-f8693f5db635",
-        "3b23cb3d-e8f6-441d-85a1-33634aeccf13"
+        "3b23cb3d-e8f6-441d-85a1-33634aeccf13",
+        "69be00ad-e18f-4f68-8697-e269e5380d85"
       ],
       "settings": {
         "color_scheme": "accent-2",
