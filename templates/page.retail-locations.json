@@ -808,8 +808,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/Kelowna-Farmer_s-and-Crafter_s-Market-Logo-1.png",
-            "address": "Wednesdays and Saturdays(8AM - 1PM)",
-            "city": "1992 Dilworth DrKelowna, BC V1Y 9N4",
+            "address": "Wednesdays and Saturdays (8AM - 1PM)",
+            "city": "1992 Dilworth Dr Kelowna, BC V1Y 9N4",
             "url": "https:\/\/www.kelownafarmersandcraftersmarket.com\/"
           }
         },
