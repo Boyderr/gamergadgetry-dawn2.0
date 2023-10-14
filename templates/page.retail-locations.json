@@ -709,6 +709,15 @@
             "city": "Duncan, BC V9L 1V9",
             "url": "https:\/\/theredballoon.ca\/"
           }
+        },
+        "576688b9-89ae-4a3b-8c68-4fa922b44f64": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/simply-wonderful-toys.webp",
+            "address": "10 Paisley St",
+            "city": "Guelph, ON N1H 2N6",
+            "url": "https:\/\/simplywonderfultoys.ca\/"
+          }
         }
       },
       "block_order": [
@@ -733,7 +742,8 @@
         "da301bfa-e810-4912-9d0a-843a661f3522",
         "7ea22637-ff3a-4b0f-9bd5-3173d2fac39b",
         "a5046157-ff75-4de3-9952-cf86c79ed611",
-        "ddfd2742-d6b6-4939-968a-7ba407dfccbe"
+        "ddfd2742-d6b6-4939-968a-7ba407dfccbe",
+        "576688b9-89ae-4a3b-8c68-4fa922b44f64"
       ],
       "settings": {
         "color_scheme": "accent-2",
