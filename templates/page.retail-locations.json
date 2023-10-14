@@ -199,6 +199,15 @@
             "city": "Kamloops, BC V2C 6C5",
             "url": "https:\/\/www.tumbleweedtoys.ca\/"
           }
+        },
+        "0c272544-55cc-416c-9e9d-c77209443b4a": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tourism-kelowna.jpg",
+            "address": "238 Queensway",
+            "city": "Kelowna, BC V1Y 6S4",
+            "url": "https:\/\/www.tourismkelowna.com\/plan\/visitor-centre\/"
+          }
         }
       },
       "block_order": [
@@ -221,7 +230,8 @@
         "861ffffd-a044-427f-a79c-63b62388f31f",
         "040c7ac8-719d-4b19-bcb8-fad9721f0979",
         "213fa52c-8500-411d-9af1-5caf88a5fb79",
-        "62c15aeb-dfc9-49d3-9dd2-354f66947685"
+        "62c15aeb-dfc9-49d3-9dd2-354f66947685",
+        "0c272544-55cc-416c-9e9d-c77209443b4a"
       ],
       "settings": {
         "color_scheme": "accent-2",
