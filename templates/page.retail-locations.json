@@ -827,8 +827,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/craft_culture_grey_logo.png",
             "address": "Event Dates TBD",
-            "city": "551 Recreation Ave<br>Kelowna, BC V1Y 7V5",
-            "url": ""
+            "city": "551 Recreation AveKelowna, BC V1Y 7V5",
+            "url": "http:\/\/www.craftculture.ca\/"
           }
         }
       },
