@@ -415,6 +415,15 @@
             "city": "Simsbury, CT 06070",
             "url": "https:\/\/neckerstoyland.com\/"
           }
+        },
+        "f90f54b5-1831-4e55-a337-f8693f5db635": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/union-steamship-company-logo-flag-transparent.png",
+            "address": "431 Bowen Island Trunk Rd",
+            "city": "Bowen Island, BC V0N 1G0",
+            "url": "https:\/\/www.unionsteamshipmarina.com\/"
+          }
         }
       },
       "block_order": [
@@ -461,7 +470,8 @@
         "21fb236e-41d4-4528-a3ca-235ca8d89758",
         "5b5679ef-ae75-485b-a2cc-f2a8ba7acaeb",
         "a38315b4-ae2f-4923-92f9-e00157cdfa9d",
-        "807b7595-c32c-4888-8b75-84be395245f3"
+        "807b7595-c32c-4888-8b75-84be395245f3",
+        "f90f54b5-1831-4e55-a337-f8693f5db635"
       ],
       "settings": {
         "color_scheme": "accent-2",
