@@ -235,6 +235,15 @@
             "city": "Vancouver, BC V6H 3Y5",
             "url": "https:\/\/camelotkids.com\/"
           }
+        },
+        "abb7afb2-e172-48fb-8943-73586d6233ee": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/once-upon-coquitlam.jpg",
+            "address": "1300 Woolridge St",
+            "city": "Coquitlam, BC V3K 6Y6",
+            "url": "https:\/\/www.onceuponachild.com\/locations\/coquitlam-bc"
+          }
         }
       },
       "block_order": [
@@ -261,7 +270,8 @@
         "0c272544-55cc-416c-9e9d-c77209443b4a",
         "3660dac9-bbc2-4982-888a-cf57ca1f3a74",
         "57471167-8110-40d3-9eee-fa3e52037890",
-        "e0382f21-e6a4-4c95-812c-1b4dac0eec23"
+        "e0382f21-e6a4-4c95-812c-1b4dac0eec23",
+        "abb7afb2-e172-48fb-8943-73586d6233ee"
       ],
       "settings": {
         "color_scheme": "accent-2",
