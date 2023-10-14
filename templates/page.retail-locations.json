@@ -145,6 +145,15 @@
             "city": "Okanagan Falls, BC V0H 1R4",
             "url": "https:\/\/tickleberrys.com\/"
           }
+        },
+        "f3ced8d0-d345-4233-9f63-c7e7f23446b3": {
+          "type": "retail-location",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/log-barn.webp",
+            "address": "4782 BC-97A",
+            "city": "Armstrong, BC V0E 1B8",
+            "url": "https:\/\/www.logbarn1912.ca\/"
+          }
         }
       },
       "block_order": [
@@ -161,7 +170,8 @@
         "52159c5f-322b-40b2-a33d-ff28393593b1",
         "bf1ab674-092c-4e9a-a9b9-1113027e15d7",
         "b910bceb-9636-4e07-8684-99da17c4bd31",
-        "250e6fca-af9b-4f3e-a7a6-cff698d3bd10"
+        "250e6fca-af9b-4f3e-a7a6-cff698d3bd10",
+        "f3ced8d0-d345-4233-9f63-c7e7f23446b3"
       ],
       "settings": {
         "color_scheme": "accent-2",
