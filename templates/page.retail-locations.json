@@ -678,8 +678,8 @@
           "type": "retail-location",
           "settings": {
             "image": "shopify:\/\/shop_images\/learning-tree-logo.webp",
-            "address": "#320 - 33 Yonge St",
-            "city": "Toronto, ON M5E 1G4",
+            "address": "1450 Headon Rd",
+            "city": "Burlington, ON L7M 3Z5",
             "url": "https:\/\/www.learningtreecanada.com\/"
           }
         }
