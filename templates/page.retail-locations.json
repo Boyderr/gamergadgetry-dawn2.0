@@ -2,10 +2,46 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "custom_css": [
+
+      ],
       "settings": {
         "color_scheme": "accent-2",
         "padding_top": 56,
         "padding_bottom": 4
+      }
+    },
+    "82e7ae6e-d8a9-4b1d-b698-d80b522999b0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16223484313759__82e7ae6e-d8a9-4b1d-b698-d80b522999b0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--16223484313759__82e7ae6e-d8a9-4b1d-b698-d80b522999b0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Want to see your store here? Reach out to us!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16223484313759__82e7ae6e-d8a9-4b1d-b698-d80b522999b0-heading-1",
+        "template--16223484313759__82e7ae6e-d8a9-4b1d-b698-d80b522999b0-text-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 12
       }
     },
     "0b02a2cc-8135-4aa7-b403-579fe8d4b6d5": {
@@ -764,6 +800,7 @@
   },
   "order": [
     "main",
+    "82e7ae6e-d8a9-4b1d-b698-d80b522999b0",
     "0b02a2cc-8135-4aa7-b403-579fe8d4b6d5",
     "b75c6231-13d4-477f-80c5-101e29f76c72",
     "9e732e5b-544b-465a-8972-71add200c023"
