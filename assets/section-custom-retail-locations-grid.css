@@ -11,6 +11,10 @@ a {
     background: transparent;
 }
 
+a:hover {
+    color: #2fc4c9;
+}
+
 .retail-grid-item {
     padding: 20px;
     font-size: 16px;
