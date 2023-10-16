@@ -27,7 +27,7 @@
       "type": "custom-retail-locations-map",
       "settings": {
         "custom_liquid": "<iframe src=\"https:\/\/www.google.com\/maps\/d\/embed?mid=1cC5p1DXtt2nW73MTFY8CUMqoNhfzc6I&ehbc=2E312F\" width=\"100%\" height=\"480\"><\/iframe>",
-        "color_scheme": "accent-2",
+        "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 44
       }
