@@ -3,6 +3,7 @@
   --alpha-button-border: 1;
   --alpha-link: 0.85;
   --alpha-badge-border: 0.1;
+  --accent-color: #008e94;
 }
 
 .product-card-wrapper .card,
@@ -562,6 +563,10 @@ hr {
   display: block;
 }
 
+.full-unstyled-link:hover {
+  color: #2fc4c9;
+}
+
 .placeholder {
   background-color: rgba(var(--color-foreground), 0.04);
   color: rgba(var(--color-foreground), 0.55);
@@ -805,7 +810,12 @@ summary::-webkit-details-marker {
 }
 
 .title--primary {
-  margin: 4rem 0;
+  margin-bottom: 3rem;
+  color: var(--accent-color);
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .title-wrapper--self-padded-tablet-down,
@@ -819,16 +829,16 @@ summary::-webkit-details-marker {
     padding-left: 0;
     padding-right: 0;
   }
+
+  .title--primary {
+    margin-bottom: 4rem;
+  }
 }
 
 @media screen and (min-width: 990px) {
   .title,
   .title-wrapper-with-link {
     margin: 5rem 0 3rem;
-  }
-
-  .title--primary {
-    margin: 2rem 0;
   }
 
   .title-wrapper-with-link {
