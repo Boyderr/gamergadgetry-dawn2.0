@@ -2,6 +2,9 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "custom_css": [
+        "h2 {color: #008e94; font-size: 18px;}"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "padding_top": 56,
