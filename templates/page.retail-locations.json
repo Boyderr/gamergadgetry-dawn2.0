@@ -6,7 +6,7 @@
 
       ],
       "settings": {
-        "color_scheme": "accent-2",
+        "color_scheme": "background-1",
         "padding_top": 56,
         "padding_bottom": 4
       }
@@ -18,7 +18,7 @@
       ],
       "settings": {
         "custom_liquid": "<strong class=\"retail-locations-cta\">Want to see your store here?<a href=\"mailto:support@gamergadgetry.com\"> Reach out to us!<\/a><\/strong>",
-        "color_scheme": "accent-2",
+        "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 12
       }
@@ -615,7 +615,7 @@
         "bdce2a0e-033c-408b-b7ba-8186481fabe4"
       ],
       "settings": {
-        "color_scheme": "accent-2",
+        "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 36
       }
@@ -915,7 +915,7 @@
         "e53c8507-a1ef-415e-a8a7-e417245c643f"
       ],
       "settings": {
-        "color_scheme": "accent-2",
+        "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 36
       }
@@ -927,7 +927,7 @@
       ],
       "settings": {
         "custom_liquid": "<strong class=\"retail-locations-cta\">Want to see your store here?<a href=\"mailto:support@gamergadgetry.com\"> Reach out to us!<\/a><\/strong>",
-        "color_scheme": "accent-2",
+        "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 52
       }
@@ -940,7 +940,7 @@
       ],
       "settings": {
         "custom_liquid": "<section class=\"is-flex\"><h2 class=\"section-heading\">LOCAL MARKETS<\/h2><\/section>",
-        "color_scheme": "accent-2",
+        "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 24
       }
@@ -988,7 +988,7 @@
         "e750b8b5-4f46-463f-a0d6-1763dc912ca5"
       ],
       "settings": {
-        "color_scheme": "accent-2",
+        "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 56
       }
