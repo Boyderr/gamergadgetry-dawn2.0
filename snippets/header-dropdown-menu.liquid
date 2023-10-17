@@ -11,7 +11,7 @@
       <li>
         {%- if link.links != blank -%}
           <header-menu>
-            <details id="Details-HeaderMenu-{{ forloop.index }}">
+            <details class="header-menu--details" id="Details-HeaderMenu-{{ forloop.index }}">
               <summary
                 id="HeaderMenu-{{ link.handle }}"
                 class="header__menu-item list-menu__item link focus-inset"
@@ -21,7 +21,9 @@
                     class="header__active-menu-item"
                   {% endif %}
                 >
+                  <a href="{{ link.url }}" style="color: rgb(var(--color-foreground)); text-decoration: none;">
                   {{- link.title | escape -}}
+                  </a>
                 </span>
                 {% render 'icon-caret' %}
               </summary>

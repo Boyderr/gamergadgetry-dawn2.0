@@ -2773,7 +2773,7 @@ details[open] > .header__icon--menu .icon-hamburger {
 }
 
 details[open] > .header__submenu {
-  animation: animateMenuOpen var(--duration-default) ease;
+  animation: animateMenuOpen var(--duration-default) ease-in-out;
   animation-fill-mode: forwards;
   z-index: 1;
   border: 1px solid #008e94;

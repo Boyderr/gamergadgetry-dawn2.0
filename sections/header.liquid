@@ -111,6 +111,16 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .header-menu--details > ul {
+    max-height: auto;
+    transition: all 3s ease-in-out;
+  }
+
+  .header-menu--details > ul[open] {
+    max-height: 100%;
+  }
+
 {%- endstyle -%}
 
 <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
@@ -347,6 +357,41 @@
   {%- render 'cart-notification', color_scheme: section.settings.color_scheme, desktop_menu_type: section.settings.menu_type_desktop -%}
 {%- endif -%}
 
+<script>
+  let items = document.querySelector(".header__inline-menu").querySelectorAll("details");
+let dropdownItems = document.querySelector(".header__submenu");
+items.forEach(item => {
+  item.addEventListener("mouseenter", () => {
+    item.setAttribute("open", true);
+    let ulElement = item.querySelector("ul");
+    if (ulElement !== null) {
+      ulElement.addEventListener("mouseleave", () => {
+        item.removeAttribute("open");
+      });
+    }
+  });
+  item.addEventListener("focus", () => {
+    item.setAttribute("open", true);
+  });
+  item.addEventListener("blur", () => {
+    item.removeAttribute("open");
+  });
+  item.addEventListener("mouseenter", () => {
+      item.setAttribute("open", "");
+    });
+    item.addEventListener("mouseleave", () => {
+      item.removeAttribute("open");
+    });
+});
+if (dropdownItems !== null) {
+  dropdownItems.addEventListener("mouseleave", () => {
+    items.forEach(item => {
+      item.removeAttribute("open");
+    });
+  });
+}
+</script>
+
 {% javascript %}
   class StickyHeader extends HTMLElement {
     constructor() {
@@ -457,6 +502,7 @@
   }
 
   customElements.define('sticky-header', StickyHeader);
+
 {% endjavascript %}
 
 <script type="application/ld+json">
