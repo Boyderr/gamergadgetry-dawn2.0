@@ -83,6 +83,12 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  color:#008e94;
+  font-weight: 600;
+}
+
+.article-template__link:hover {
+  color: #2fc4c9;
 }
 
 .article-template__link .icon-wrap {
