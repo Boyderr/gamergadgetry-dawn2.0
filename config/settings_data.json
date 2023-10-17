@@ -7,7 +7,7 @@
     "heading_scale": 100,
     "type_body_font": "montserrat_n4",
     "body_scale": 100,
-    "page_width": 1200,
+    "page_width": 1500,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 32,
     "spacing_grid_vertical": 32,
@@ -218,7 +218,7 @@
         "settings": {
           "background": "#008e94",
           "background_gradient": "",
-          "text": "#fff",
+          "text": "#ffffff",
           "button": "#008e94",
           "button_label": "#ffffff",
           "secondary_button_label": "#121212",
