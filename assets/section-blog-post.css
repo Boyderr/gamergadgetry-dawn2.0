@@ -67,6 +67,10 @@
 
 .article-template__title {
   margin: 0;
+  font-size: 1.733em;
+  color: #008e94;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .article-template__title:not(:only-child) {
