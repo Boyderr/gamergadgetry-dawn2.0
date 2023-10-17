@@ -101,7 +101,7 @@
 }
 
 .card-information {
-  text-align: var(--text-alignment);
+  text-align: center;
 }
 
 .card__media,
@@ -371,7 +371,8 @@
 }
 
 .card-information > .price {
-  color: rgb(var(--color-foreground));
+  color: #008e94;
+  font-weight: 600;
 }
 
 .card--horizontal .card-information > .price {
@@ -488,4 +489,18 @@
   color: #008e94;
   text-transform: uppercase;
   font-size: 18px;
+}
+
+.full-unstyled-link.card__heading--custom {
+  color: #121212;
+  font-weight: normal;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 14px;
+  margin-top: -1rem;
+}
+
+.full-unstyled-link.card__heading--custom:hover {
+  color: #121212;
+  text-decoration: none;
 }
