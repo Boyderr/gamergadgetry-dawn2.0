@@ -7,7 +7,8 @@
 
 .price > * {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
+  padding-right: .5rem;
 }
 
 .price.price--unavailable {
