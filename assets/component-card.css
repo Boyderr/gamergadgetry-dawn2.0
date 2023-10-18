@@ -495,13 +495,22 @@
   color: #121212;
   font-weight: normal;
   text-transform: capitalize;
-  text-align: center;
   font-size: 14px;
   margin-top: -1rem;
   line-height: 1.5;
 }
 
+@media screen and (min-width: 750px) {
+  .full-unstyled-link.card__heading--custom {
+    margin-top: -1.5rem;
+  }
+}
+
 .full-unstyled-link.card__heading--custom:hover {
   color: #121212;
   text-decoration: none;
+}
+
+.sold-out--hover:hover {
+  opacity: 1;
 }
