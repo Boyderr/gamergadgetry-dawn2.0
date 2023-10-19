@@ -615,6 +615,7 @@
         "bdce2a0e-033c-408b-b7ba-8186481fabe4"
       ],
       "settings": {
+        "heading": "",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 36
@@ -915,6 +916,7 @@
         "e53c8507-a1ef-415e-a8a7-e417245c643f"
       ],
       "settings": {
+        "heading": "Heading",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 36
@@ -988,6 +990,7 @@
         "e750b8b5-4f46-463f-a0d6-1763dc912ca5"
       ],
       "settings": {
+        "heading": "Heading",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 56
