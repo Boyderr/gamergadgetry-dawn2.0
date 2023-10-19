@@ -43,10 +43,22 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "b5bd74ab-ba15-4877-bd06-277d9f44c4c9": {
+      "type": "breadcrumb",
+      "settings": {
+        "breadcrumbs_home_icon_bool": true,
+        "breadcrumb_delimeter": "angle_right",
+        "breadcrumb_bg_color": "#fff",
+        "breadcrumb_text_color": "#465076",
+        "breadcrumb_accent_color_bool": false,
+        "breadcrumb_accent_color": "#4770db"
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "b5bd74ab-ba15-4877-bd06-277d9f44c4c9"
   ]
 }
