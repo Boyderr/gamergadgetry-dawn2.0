@@ -85,7 +85,7 @@
 
 
 <div class="page-width breadcrumbs" aria-label="breadcrumbs">
-  {%- unless template == 'index' or template == 'cart' -%}
+  {%- unless template == 'index' or template == 'cart' or template contains 'customers/' or template == null -%}
     {%- if section.settings.breadcrumbs_home_icon_bool -%}
       <div class="home-icon-container">
         <svg
