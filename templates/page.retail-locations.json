@@ -916,7 +916,7 @@
         "e53c8507-a1ef-415e-a8a7-e417245c643f"
       ],
       "settings": {
-        "heading": "Heading",
+        "heading": "",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 36
@@ -932,19 +932,6 @@
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 52
-      }
-    },
-    "f054efbf-c5c9-42e1-80b6-bb904c1bb4bd": {
-      "type": "custom-liquid",
-      "custom_css": [
-        ".is-flex {display: flex; justify-content: center;}",
-        "h2 {color: #008e94; font-weight: bold;}"
-      ],
-      "settings": {
-        "custom_liquid": "<section class=\"is-flex\"><h2 class=\"section-heading\">LOCAL MARKETS<\/h2><\/section>",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 24
       }
     },
     "cce8aad7-22c9-4c27-9d48-4545a21a85ab": {
@@ -990,7 +977,7 @@
         "e750b8b5-4f46-463f-a0d6-1763dc912ca5"
       ],
       "settings": {
-        "heading": "Heading",
+        "heading": "Local Markets",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 56
@@ -1004,7 +991,6 @@
     "b75c6231-13d4-477f-80c5-101e29f76c72",
     "9e732e5b-544b-465a-8972-71add200c023",
     "d8beb055-4c6b-41ca-bd00-177ea1025488",
-    "f054efbf-c5c9-42e1-80b6-bb904c1bb4bd",
     "cce8aad7-22c9-4c27-9d48-4545a21a85ab"
   ]
 }
