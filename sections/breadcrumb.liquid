@@ -11,10 +11,12 @@
   }
 
   .breadcrumbs {
-    padding: 1rem 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     color: {{ section.settings.breadcrumb_text_color }}
     ;
-    background-color: {{ section.settings.breadcrumb_bg_color }}
+    background-color: {{ section.settings.breadcrumb_bg_color }};
+    border-bottom: 1px solid #008e94;
   }
 
   .breadcrumbs li {
@@ -82,7 +84,7 @@
 {%- endstyle -%}
 
 
-<div class="breadcrumbs" aria-label="breadcrumbs">
+<div class="page-width breadcrumbs" aria-label="breadcrumbs">
   {%- unless template == 'index' or template == 'cart' -%}
     {%- if section.settings.breadcrumbs_home_icon_bool -%}
       <div class="home-icon-container">
