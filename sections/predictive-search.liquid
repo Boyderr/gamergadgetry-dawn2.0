@@ -28,6 +28,7 @@
               </li>
             {%- endfor -%}
             {%- for collection in predictive_search.resources.collections -%}
+              {% capture wlm_check %}{% include 'wlm-collection' with collection %}{% endcapture %}{% unless wlm_check contains "Liquid error" %}{% include 'wlm-collection' with collection %}{% endunless %}
               <li id="predictive-search-option-collection-{{ forloop.index }}" class="predictive-search__list-item" role="option" aria-selected="false">
                 <a href="{{ collection.url }}" class="predictive-search__item link link--text" tabindex="-1">
                   <div class="predictive-search__item-content predictive-search__item-content--centered">
@@ -78,6 +79,7 @@
               </h2>
               <ul id="predictive-search-results-products-list" class="predictive-search__results-list list-unstyled" role="group" aria-labelledby="predictive-search-products">
                 {%- for product in predictive_search.resources.products -%}
+                  {% capture the_wlm_snippet_content %}{% include 'wlm-search' with product %}{% endcapture %}{%- unless the_wlm_snippet_content contains 'Liquid error' -%}{% include 'wlm-search' with product %}{%- endunless -%}
                   <li id="predictive-search-option-product-{{ forloop.index }}" class="predictive-search__list-item" role="option" aria-selected="false">
                     <a href="{{ product.url }}" class="predictive-search__item predictive-search__item--link-with-thumbnail link link--text" tabindex="-1">
                       {%- if product.featured_media != blank -%}
