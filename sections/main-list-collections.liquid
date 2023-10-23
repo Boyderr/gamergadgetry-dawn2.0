@@ -29,6 +29,7 @@
       role="list"
     >
       {%- for collection in collections -%}
+        {% capture wlm_check %}{% include 'wlm-collection' with collection %}{% endcapture %}{% unless wlm_check contains "Liquid error" %}{% include 'wlm-collection' with collection %}{% endunless %}
         <li
           class="collection-list__item grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           {% if settings.animations_reveal_on_scroll %}
