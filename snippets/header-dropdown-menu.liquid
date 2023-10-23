@@ -7,7 +7,16 @@
 
 <nav class="header__inline-menu">
   <ul class="list-menu list-menu--inline" role="list">
-    {%- for link in section.settings.menu.links -%}
+    {%- liquid 
+      assign menu_handle = 'main-menu'
+
+      if customer 
+        if customer.tags contains 'wholesale-customer'
+          assign menu_handle = 'wholesale-menu'
+        endif
+      endif
+      -%}
+      {% for link in linklists[menu_handle].links %}
       <li>
         {%- if link.links != blank -%}
           <header-menu>
@@ -100,6 +109,7 @@
           </a>
         {%- endif -%}
       </li>
-    {%- endfor -%}
+      {%- endfor -%}
+
   </ul>
 </nav>
