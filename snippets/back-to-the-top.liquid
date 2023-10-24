@@ -1,27 +1,20 @@
-{% comment %} 
-  Reduce below value if you need the back to the top button to appear higher up on the page. 
-  That value is in pixels.
-{% endcomment %}
-{% assign vertical_offset_for_trigger = 300 %}
-{% comment %} 
-  Vertical offset from bottom of browser for the position of the button.
-{% endcomment %}
-{% assign position_from_bottom = '4em' %}
-<a href="#" title="Back to the top" class="back-to-top">
-  <span>Back to the top</span> <i class="fa fa-arrow-circle-o-up fa-2x"></i> 
-</a>
-{{ '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css' | stylesheet_tag }}
+<div class="container">
+  <a href="#" title="Back to the top" class="back-to-top">
+    <i class="fa-solid fa-circle-arrow-up fa-2x"></i> 
+  </a>
+</div>
+
 <style>
+
+.container {
+  position: relative;
+  padding-top: 16px;
+}
+
 .back-to-top {
-  position: fixed;
-  bottom: {{ position_from_bottom }};
-  right: 0px;
   text-decoration: none;
-  color: #999;
-  background-color: #eee;
-  font-size: 16px;
-  padding: 0.3em;
-  display: none;
+  color: #008e94;
+  font-size: 18px;
   -webkit-border-top-left-radius: 3px;
   -webkit-border-bottom-left-radius: 3px;
   -moz-border-radius-topleft: 3px;
@@ -31,37 +24,61 @@
   z-index: 60000;
 }
 .back-to-top i {
-  vertical-align: middle;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
 }
-.back-to-top span {
-  padding-left: 0.5em;
-}
-.back-to-top i + span {
-  padding-left: 0;
-}
+
 .back-to-top:hover {
-  text-decoration: none;
-  color: #555;
+  color: #2fc4c9;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-top: 75px;
+  }
+
+  .back-to-top {
+    font-size: 24px;
+  }
+
+  .back-to-top i {
+    right: 30px;
+    bottom: 30px;
+  }
 }
 </style>
+
 <script>
-window.onload = function() {
- jQuery(function($) {
-   var offset = {{ vertical_offset_for_trigger }};
-   var duration = 500;
-   $(window).scroll(function() {
-     if ($(this).scrollTop() > offset) {
-       $('.back-to-top').fadeIn(duration);
-     } 
-     else {
-       $('.back-to-top').fadeOut(duration);
-     }
-   });
-   $('.back-to-top').unbind('click.smoothscroll').bind('click', function(e) {
-     e.preventDefault();
-     $('html, body').animate( { scrollTop: 0 }, duration);
-     return false;
-   })
- });
-}
+  document.addEventListener("DOMContentLoaded", function() {
+    var backToTop = document.querySelector(".back-to-top");
+
+    backToTop.addEventListener("click", function(event) {
+      event.preventDefault();
+
+      // Define the duration of the scroll animation (in milliseconds)
+      var duration = 500;
+
+      var target = document.querySelector("#top");
+      var targetPosition = target.getBoundingClientRect().top;
+      var startPosition = window.pageYOffset;
+      var startTime = null;
+
+      function scroll(time) {
+        if (startTime === null) startTime = time;
+        var timeElapsed = time - startTime;
+        var progress = timeElapsed / duration;
+
+        window.scrollTo(0, easeOutQuad(startPosition, targetPosition, progress));
+
+        if (timeElapsed < duration) requestAnimationFrame(scroll);
+      }
+
+      function easeOutQuad(start, end, progress) {
+        return start + (end - start) * progress * (2 - progress);
+      }
+
+      requestAnimationFrame(scroll);
+    });
+  });
 </script>
