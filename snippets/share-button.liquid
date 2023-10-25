@@ -1,49 +1,35 @@
-{% comment %}
-  Renders share button.
-  Accepts:
-  - block: {Object} passes in the block information.
-  - share_link: {String} url to be added to the input the user will get/copy.
-
-  Usage:
-  {% render 'share-button',
-    block: block,
-    share_link: share_url
-  %}
-{% endcomment %}
-<script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
-
-<share-button id="Share-{{ section.id }}" class="share-button quick-add-hidden" {{ block.shopify_attributes }}>
-  <button class="share-button__button hidden">
-    {% render 'icon-share' %}
-    {{ block.settings.share_label | escape }}
-  </button>
-  <details id="Details-{{ block.id }}-{{ section.id }}">
-    <summary class="share-button__button">
-      {% render 'icon-share' %}
-      {{ block.settings.share_label | escape }}
-    </summary>
-    <div class="share-button__fallback motion-reduce">
-      <div class="field">
-        <span id="ShareMessage-{{ section.id }}" class="share-button__message hidden" role="status"> </span>
-        <input
-          type="text"
-          class="field__input"
-          id="ShareUrl-{{ section.id }}"
-          value="{{ share_link }}"
-          placeholder="{{ 'general.share.share_url' | t }}"
-          onclick="this.select();"
-          readonly
-        >
-        <label class="field__label" for="ShareUrl-{{ section.id }}">{{ 'general.share.share_url' | t }}</label>
-      </div>
-      <button class="share-button__close hidden no-js-hidden">
-        {% render 'icon-close' %}
-        <span class="visually-hidden">{{ 'general.share.close' | t }}</span>
-      </button>
-      <button class="share-button__copy no-js-hidden">
-        {% render 'icon-clipboard' %}
-        <span class="visually-hidden">{{ 'general.share.copy_to_clipboard' | t }}</span>
-      </button>
-    </div>
-  </details>
-</share-button>
+<ul class="footer__list-social list-unstyled list-social-share">
+  <li class="list-social__item">
+    <a
+      target="_blank"
+      href="//www.facebook.com/sharer.php?u={{ shop.url | append: product.url }}"
+      class="btn--share share-facebook"
+    >
+      {%- render 'icon-facebook' -%}
+      <span class="share-title" aria-hidden="true">Share</span>
+      <span class="visually-hidden">Share on Facebook</span>
+    </a>
+  </li>
+  <li class="list-social__item">
+    <a
+      target="_blank"
+      href="//twitter.com/share?text={{ product.title | url_param_escape }}&amp;url={{ shop.url | append: product.url }}"
+      class="btn--share share-twitter"
+    >
+      {%- render 'icon-twitter' -%}
+      <span class="share-title" aria-hidden="true">Tweet</span>
+      <span class="visually-hidden">Tweet on Twitter</span>
+    </a>
+  </li>
+  <li class="list-social__item">
+    <a
+      target="_blank"
+      href="//pinterest.com/pin/create/button/?url={{ shop.url | append: product.url }}&amp;media={{ product | img_url: '1024x1024' }}&amp;description={{ product.title | url_param_escape }}"
+      class="btn--share share-pinterest"
+    >
+      {%- render 'icon-pinterest' -%}
+      <span class="share-title" aria-hidden="true">Pin It</span>
+      <span class="visually-hidden">Pin on Pinterest</span>
+    </a>
+  </li>
+</ul>

@@ -3554,3 +3554,37 @@ div.glider-dot {
   display: block;
 }
 
+/* Share Buttons - Product Pages */
+
+.list-social-share {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  padding-bottom: 1rem;
+}
+
+.list-social-share li {
+  border: 1px solid #008e94;
+  border-radius: 3px;
+  padding: 0 .8rem .1rem .3rem;
+}
+
+.list-social-share li:hover {
+  border: 1px solid #2fc4c9;
+}
+
+a.btn--share:hover svg {
+  color: #2fc4c9;
+}
+
+.list-social__item a {
+  display: flex;
+  align-items: center;
+  color: #121212;
+  text-decoration: none;
+  gap: .5rem;
+}
+
+.list-social__item a:hover {
+  color: #5c5c5c;
+}

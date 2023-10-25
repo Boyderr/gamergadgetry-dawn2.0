@@ -16,6 +16,10 @@
   color: #008e94; 
 }
 
+.list-social__item .icon:hover {
+  color: #2fc4c9;
+}
+
 .list-social__link {
   align-items: center;
   display: flex;
