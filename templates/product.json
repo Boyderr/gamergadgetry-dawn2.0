@@ -56,6 +56,17 @@
           "type": "shopify:\/\/apps\/smarttabs-product-tabs\/blocks\/app-embed\/e4a7401b-931e-422d-bab8-fc6ef5da44a4",
           "settings": {
           }
+        },
+        "1c3f2e44-cdc0-44a3-b451-8a2175faf5a4": {
+          "type": "shopify:\/\/apps\/camouflage-hide-sold-variants\/blocks\/camouflage-app-block\/12f79890-9cb9-4b70-ac12-64dd825d687e",
+          "settings": {
+            "theme_name": "",
+            "selector_type": "",
+            "hide_oos_variants": false,
+            "strikethrough_oos_variants": false,
+            "other_file_name": "",
+            "reverse_options": false
+          }
         }
       },
       "block_order": [
@@ -68,7 +79,8 @@
         "description",
         "share",
         "83dee99d-9142-41be-92da-065299523a4d",
-        "cefa204c-c8ad-4257-9308-d6a6c9c2e970"
+        "cefa204c-c8ad-4257-9308-d6a6c9c2e970",
+        "1c3f2e44-cdc0-44a3-b451-8a2175faf5a4"
       ],
       "settings": {
         "enable_sticky_info": true,
