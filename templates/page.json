@@ -3,7 +3,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        ".color_scheme {margin: 0 auto; max-width: 100rem;}"
+
       ],
       "settings": {
         "color_scheme": "background-1",
