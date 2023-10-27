@@ -3,7 +3,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        ".subheader--sml {color: #008e94; font-size: 18px;}"
+        ".color_scheme {margin: 0 auto; max-width: 100rem;}"
       ],
       "settings": {
         "color_scheme": "background-1",
