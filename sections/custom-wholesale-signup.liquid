@@ -1,0 +1,338 @@
+{{ 'section-custom-wholesale-signup.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="contact page-width-narrow section-{{ section.id }}-padding">
+    {%- if section.settings.heading != blank -%}
+      <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        {{ section.settings.heading }}
+      </h2>
+    {%- else -%}
+      <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
+    {%- endif -%}
+    {%- liquid
+      assign contact_form_class = 'isolate'
+      if settings.animations_reveal_on_scroll
+        assign contact_form_class = 'isolate scroll-trigger animate--slide-in'
+      endif
+    -%}
+    {%- form 'contact', id: 'WholesaleSignupForm', class: 
+    contact_form_class -%}
+      {%- if form.posted_successfully? -%}
+        <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
+          {% render 'icon-success' %}
+          {{ 'templates.contact.form.post_success' | t }}
+        </h2>
+      {%- elsif form.errors -%}
+        <div class="form__message">
+          <h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>
+            {% render 'icon-error' %}
+            {{ 'templates.contact.form.error_heading' | t }}
+          </h2>
+        </div>
+        <ul class="form-status-list caption-large" role="list">
+          <li>
+            <a href="#ContactForm-email" class="link">
+              {{ form.errors.translated_fields.email | capitalize }}
+              {{ form.errors.messages.email }}
+            </a>
+          </li>
+        </ul>
+      {%- endif -%}
+      <div class="contact__fields">
+        <div class="business-details">
+          <h3>Business Details</h3>
+          <div class="field">
+            <input 
+              class="field__input"
+              autocomplete="business-address"
+              type="text" 
+              id="business-address"
+              name="contact[business_address]"
+              placeholder="Business Address"
+              aria-required="required"
+            >
+            <label class="field__label" for="business-address">Address <span aria-hidden="true">*</span></label>
+          </div>
+          <div class="field">
+            <input 
+              class="field__input"
+              autocomplete="apartment-suite-number"
+              type="text" 
+              id="apartment-suite-number"
+              name="contact[apartment_suite_number]"
+              placeholder="Apartment, suite, etc"
+              aria-required="false"
+            >
+            <label class="field__label" for="apartment-suite-number">Apartment, suite, etc</label>
+          </div>
+          <div class="field">
+            <input 
+              class="field__input"
+              autocomplete="city"
+              type="text" 
+              id="city"
+              name="contact[city]"
+              placeholder="City"
+              aria-required="true"
+            >
+            <label class="field__label" for="city">City <span aria-hidden="true">*</span></label>
+          </div>
+          <div class="field">
+            <input 
+              class="field__input"
+              autocomplete="postal-code"
+              type="text" 
+              id="postal-code"
+              name="contact[postal_code]"
+              placeholder="Postal Code"
+              aria-required="true"
+            >
+            <label class="field__label" for="postal-code">Postal Code <span aria-hidden="true">*</span></label>
+          </div>
+          <div class="field">
+            <input 
+              class="field__input"
+              autocomplete="country"
+              type="text" 
+              id="country"
+              name="contact[country]"
+              placeholder="Country"
+              aria-required="true"
+            >
+            <label class="field__label" for="country">Country <span aria-hidden="true">*</span></label>
+          </div>
+          <div class="field">
+            <select name="contact[province]" id="select">
+              <option>Province <span aria-hidden="true">*</span></option>
+              <option value="British Columbia">Alberta</option>
+              <option value="Alberta">British Columbia</option>
+              <option value="Alberta">Manitoba</option>
+              <option value="Alberta">New Brunswick</option>
+              <option value="Alberta">Newfoundland & Labrador</option>
+              <option value="Alberta">Northwest Territories</option>
+              <option value="Alberta">Nova Scotia</option>
+              <option value="Alberta">Nunavut</option>
+              <option value="Alberta">Ontario</option>
+              <option value="Alberta">Prince Edward Island</option>
+              <option value="Alberta">Quebec</option>
+              <option value="Alberta">Saskatchewan</option>
+              <option value="Alberta">Yukon</option>
+            </select>
+          </div>
+          <div class="field">
+            <input 
+              class="field__input"
+              autocomplete="company-name"
+              type="text" 
+              id="company-name"
+              name="contact[company_name]"
+              placeholder="Company Name"
+              aria-required="true"
+            >
+            <label class="field__label" for="company-name">Company Name <span aria-hidden="true">*</span></label>
+          </div>
+          <div class="field">
+            <input 
+              class="field__input"
+              autocomplete="website"
+              type="text" 
+              id="website"
+              name="contact[website]"
+              placeholder="Website"
+              aria-required="true"
+            >
+            <label class="field__label" for="website">Website <span aria-hidden="true">*</span></label>
+          </div>
+          <div class="field">
+            <input 
+              class="field__input"
+              autocomplete="phone"
+              type="tel" 
+              id="phone"
+              name="contact[phone]"
+              placeholder="Phone"
+              aria-required="true"
+            >
+            <label class="field__label" for="phone">Phone <span aria-hidden="true">*</span></label>
+          </div>
+          <div class="field">
+            <input 
+              class="field__input"
+              autocomplete="tax-id"
+              type="text" 
+              id="tax-id"
+              name="contact[tax_id]"
+              placeholder="Website"
+              aria-required="true"
+            >
+            <label class="field__label" for="tax-id">Tax ID <span aria-hidden="true">*</span></label>
+          </div>
+        </div>
+        <div class="primary-contact">
+          <h3>Primary Contact Details</h3>
+          <div class="field">
+            <input 
+              class="field__input"
+              autocomplete="title"
+              type="text" 
+              id="title"
+              name="contact[title]"
+              placeholder="Title"
+              aria-required="true"
+            >
+            <label class="field__label" for="title">Title ex. Owner, Buyer, etc <span aria-hidden="true">*</span></label>
+          </div>
+          <div class="field">
+            <input 
+              class="field__input"
+              autocomplete="first-name"
+              type="text" 
+              id="first-name"
+              name="contact[first_name]"
+              placeholder="First Name"
+              aria-required="true"
+            >
+            <label class="field__label" for="first-name">First Name <span aria-hidden="true">*</span></label>
+          </div>
+          <div class="field">
+            <input 
+              class="field__input"
+              autocomplete="last-name"
+              type="text" 
+              id="last-name"
+              name="contact[last_name]"
+              placeholder="Last Name"
+              aria-required="true"
+            >
+            <label class="field__label" for="last-name">Last Name <span aria-hidden="true">*</span></label>
+          </div>
+          <div class="field field--with-error">
+            <input
+              autocomplete="email"
+              type="email"
+              id="email"
+              class="field__input"
+              name="contact[email]"
+              spellcheck="false"
+              autocapitalize="off"
+              value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+              aria-required="true"
+              {% if form.errors contains 'email' %}
+                aria-invalid="true"
+                aria-describedby="ContactForm-email-error"
+              {% endif %}
+              placeholder="{{ 'templates.contact.form.email' | t }}"
+            >
+            <label class="field__label" for="ContactForm-email">
+              {{- 'templates.contact.form.email' | t }}
+              <span aria-hidden="true">*</span></label
+            >
+            {%- if form.errors contains 'email' -%}
+              <small class="contact__field-error" id="ContactForm-email-error">
+                <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
+                <span class="form__message">
+                  {%- render 'icon-error' -%}
+                  {{- form.errors.translated_fields.email | capitalize }}
+                  {{ form.errors.messages.email -}}
+                </span>
+              </small>
+            {%- endif -%}
+          </div>
+          <div class="contact__button">
+            <button type="submit" class="button">
+              {{ 'templates.contact.form.send' | t }}
+            </button>
+          </div>
+        </div>
+      </div>
+    {%- endform -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.wholesale-signup-form.name",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "Wholesale Signup Form",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "background-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.wholesale-signup-form.presets.name"
+    }
+  ]
+}
+{% endschema %}

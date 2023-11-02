@@ -667,6 +667,12 @@
         "name": "Contact form"
       }
     },
+    "wholesale-signup-form" : {
+      "name": "Wholesale Signup Form",
+      "presets": {
+        "name": "Wholesale Signup Form"
+      }
+    },
     "custom-liquid": {
       "name": "Custom Liquid",
       "settings": {
