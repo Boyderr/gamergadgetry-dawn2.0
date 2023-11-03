@@ -90,7 +90,6 @@
                	            {%- assign wcp_line_price = wcp_custom_final_Price | floor | minus: 0 | times: item.quantity -%}
                         {%- endif -%}
  {%- assign wcp_total_price = wcp_total_price | plus: wcp_line_price -%}	
- {{NextDiscountHtml}} 
 
                   <tr class="cart-item" id="CartItem-{{ item.index | plus: 1 }}">
                     <td class="cart-item__media">
@@ -170,6 +169,7 @@
                             {%- endif -%}
                           {%- endfor -%}
                         </dl>
+                       {{NextDiscountHtml}} 
 
                         <p class="product-option">{{ item.selling_plan_allocation.selling_plan.name }}</p>
                       {%- endif -%}
