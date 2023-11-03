@@ -348,7 +348,32 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-    {% assign wcp_wholesale_customer = false %}
+
+  <!-- WPD Start -->
+                {% if customer.tags.size > 0 and template != 'cart' %}
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                      let checkoutbtninterval = setInterval(function(){
+                        var x=document.querySelectorAll("input[name='checkout'], button[name='checkout'], input[name='goto_pp'], button[name='goto_pp'], input[name='goto_gc'], button[name='goto_gc'], [href$='checkout']");
+                        var WPD_RedirectToCart = function(e) {
+                          	e.stopPropagation();
+                            e.preventDefault();
+                            window.location = '/cart';
+                            };
+                            for (var i = 0; i < x.length; i++) {
+                                x[i].addEventListener('click', WPD_RedirectToCart, false);
+                            }
+                        },500)
+                });
+              </script>
+               {% endif %}
+         
+
+               {% if customer.tags.size > 0 and template == 'cart' %}
+                 {% include 'wcp_cart' %}
+               {% endif %}
+               <!-- WPD End -->
+        {% assign wcp_wholesale_customer = false %}
 {% if shop.metafields.wcp_status.wcp_status != 'disabled' and customer %}
 {% assign active_discounts = shop.metafields.wcp_active_discounts.wcp_active_discounts %}
 {% assign active_discounts_array = active_discounts | split: ',' %}
@@ -382,31 +407,10 @@
   .shopify-payment-button, .additional-checkout-buttons{
   display:none !important;
   }
+  .cart-item .cart-item__totals.right.small-hide > div.cart-item__price-wrapper > dl > dd:nth-child(2) > s > span{
+  text-decoration:line-through;
+  }
 </style>
 {% endif %}
-  <!-- WPD Start -->
-                {% if customer.tags.size > 0 and template != 'cart' %}
-                <script>
-                    document.addEventListener('DOMContentLoaded', function() {
-                      let checkoutbtninterval = setInterval(function(){
-                        var x=document.querySelectorAll("input[name='checkout'], button[name='checkout'], input[name='goto_pp'], button[name='goto_pp'], input[name='goto_gc'], button[name='goto_gc'], [href$='checkout']");
-                        var WPD_RedirectToCart = function(e) {
-                          	e.stopPropagation();
-                            e.preventDefault();
-                            window.location = '/cart';
-                            };
-                            for (var i = 0; i < x.length; i++) {
-                                x[i].addEventListener('click', WPD_RedirectToCart, false);
-                            }
-                        },500)
-                });
-              </script>
-               {% endif %}
-         
-
-               {% if customer.tags.size > 0 and template == 'cart' %}
-                 {% include 'wcp_cart' %}
-               {% endif %}
-               <!-- WPD End -->
   </body>
 </html>
