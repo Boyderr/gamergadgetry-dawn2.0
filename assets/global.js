@@ -966,6 +966,31 @@ class VariantSelects extends HTMLElement {
     this.removeErrorMessage();
     this.updateVariantStatuses();
 
+     if (document.getElementsByClassName('wcp_vd_table').length != 0 && document.getElementById('vdtable') != null) {
+              var source = document.getElementById('vdtable').innerHTML;
+              var template = Handlebars.compile(source);
+              if (document.getElementsByClassName('wcp_vd_table')[0] != undefined && document.getElementsByClassName('wcp_vd_table')[0].innerText != '') {
+                var context = JSON.parse(document.getElementsByClassName('wcp_vd_table')[0].innerText);
+                var vdtable = [];
+                vdtable['vdtable'] = context['wpd_' + this.currentVariant.id];
+                vdtable['vdtable'].forEach(function (arrayItem) {
+                  arrayItem.Price = arrayItem.Price.replace(/<\/?span[^>]*>/g, '');
+                });
+                var html = template(vdtable);
+				try{
+					document.getElementById('wcp_vd_table').innerHTML = html;
+				}catch(e){
+					console.log("VD div not found");
+				}
+              }
+              else {
+			  try{
+			    document.getElementById('wcp_vd_table').innerHTML = '';
+			  }catch(e){
+			  	console.log("VD div not found");
+			  }
+              }
+            }
     if (!this.currentVariant) {
       this.toggleAddButton(true, '', true);
       this.setUnavailable();
