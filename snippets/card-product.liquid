@@ -1,5 +1,5 @@
 
-{% capture wpd_discounted_prices %}{%- render 'wcp_discount'  wcp_discount:product , wpd_is_render:'yes' -%}{% endcapture %}
+{% capture wpd_discounted_prices %}{%- render 'wcp_discount'  wcp_discount:card_product , wpd_is_render:'yes' -%}{% endcapture %}
     
     {%- capture wcp_price -%}{%- render 'wcp_render_discount' , wpd_discounted_prices:wpd_discounted_prices, price_variable:'wcp_price' -%}{%- endcapture -%}
     {% assign  wcp_price = wcp_price | minus: 0 %}
@@ -30,7 +30,7 @@
     {%- capture p_discount_tag -%}{%- render 'wcp_render_discount' , wpd_discounted_prices:wpd_discounted_prices, price_variable:'p_discount_tag' -%}{%- endcapture -%}
     {% assign p_discount_tag = p_discount_tag | strip %}
     
-    {% assign raw_set_prices = product.metafields.wcp_set_prices.wcp_set_prices %}
+    {% assign raw_set_prices = card_product.metafields.wcp_set_prices.wcp_set_prices %}
     {% assign set_prices_array = blank %}
     {% if raw_set_prices %}
         {% assign set_prices_array = raw_set_prices | split: ',' %}
@@ -38,7 +38,7 @@
     
     {%- capture wcp_discount_value -%}{%- render 'wcp_render_discount' , wpd_discounted_prices:wpd_discounted_prices, price_variable:'wcp_discount_value' -%}{%- endcapture -%}
     
-    {% capture wcp_v_discounted_prices %}{%- render 'wcp_variant' , wcp_variant:product.selected_or_first_available_variant , set_prices_array:set_prices_array , wpd_is_render:'yes', v_discount_tag : v_discount_tag , wcp_discount_value : wcp_discount_value -%}{%- endcapture -%}
+    {% capture wcp_v_discounted_prices %}{%- render 'wcp_variant' , wcp_variant:card_product.selected_or_first_available_variant , set_prices_array:set_prices_array , wpd_is_render:'yes', v_discount_tag : v_discount_tag , wcp_discount_value : wcp_discount_value -%}{%- endcapture -%}
     
     {%- capture wcp_v_price -%}{%- render 'wcp_render_discount' , wpd_discounted_prices:wcp_v_discounted_prices, price_variable:'wcp_v_price' -%}{%- endcapture -%}
     {% assign  wcp_v_price = wcp_v_price | minus: 0 %}
@@ -181,7 +181,7 @@
               >
                 {{- 'products.product.sold_out' | t -}}
               </span>
-            {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
+            {%- elsif wcp_compare_at_price > wcp_price and card_product.available -%}
               <span
                 id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
                 class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
@@ -384,7 +384,7 @@
             >
               {{- 'products.product.sold_out' | t -}}
             </span>
-          {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
+          {%- elsif wcp_compare_at_price > wcp_price and card_product.available -%}
             <span
               id="Badge-{{ section_id }}-{{ card_product.id }}"
               class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
@@ -440,7 +440,7 @@
   </div>
 {%- endif -%}
 
-{%- assign wcp_prd_var = product -%}
+{%- assign wcp_prd_var = card_product -%}
 {%- unless wcp_prd_var == empty -%}
             <script type='application/json' class='{%- for wcp_v in wcp_prd_var.variants -%} wcp_json_{{wcp_v.id}} {%- endfor -%} wcp_json_{{ wcp_prd_var.id }} wcp_json' id='wcp_json_{{ wcp_prd_var.id }}' > 
                 {%- render 'wcp_product_json' with wcp_prd_var -%}
