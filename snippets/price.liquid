@@ -69,8 +69,17 @@
     assign target = product
   endif
 
-  assign compare_at_price = target.compare_at_price
-  assign price = target.price | default: 1999
+ if use_variant
+      assign compare_at_price = wcp_v_compare_at_price
+  else
+      assign compare_at_price = wcp_compare_at_price
+  endif
+
+ if use_variant
+      assign price = wcp_v_price | default: 1999
+  else
+     assign price = wcp_price | default: 1999
+  endif
   assign price_min = wcp_price_min 
   assign price_max = wcp_price_max 
   assign available = target.available | default: false
