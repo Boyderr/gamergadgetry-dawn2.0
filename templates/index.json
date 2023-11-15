@@ -191,21 +191,6 @@
         "padding_top": 36,
         "padding_bottom": 76
       }
-    },
-    "social_widget_20498": {
-      "type": "social-widget",
-      "disabled": true,
-      "settings": {
-        "social_widget_id": "20498",
-        "social_product_id": "none",
-        "social_widget_type": "none"
-      }
-    },
-    "pagefly-home": {
-      "type": "pagefly-home",
-      "disabled": true,
-      "settings": {
-      }
     }
   },
   "order": [
@@ -213,8 +198,6 @@
     "d6c7b198-a749-4ccc-a6af-787457c5f7e4",
     "4ec7c39c-fe64-47e7-8e28-dffd67ae3c0b",
     "1696528860d170fa8c",
-    "4f0c3c79-925e-4321-8187-5f88aad717de",
-    "social_widget_20498",
-    "pagefly-home"
+    "4f0c3c79-925e-4321-8187-5f88aad717de"
   ]
 }

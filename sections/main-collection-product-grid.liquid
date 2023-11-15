@@ -154,7 +154,7 @@
                 grid--{{ section.settings.columns_desktop }}-col-desktop
               "
             >
-              {%- for product in collection.products -%}{%- capture wlm_check -%}{%- render 'wlm-product' with product , wlm_is_render:'yes' -%}{%- endcapture -%}{%- if wlm_check == blank -%}{%continue%}{%- endif -%}
+              {%- for product in collection.products -%}
                 {% capture wlm_check %}{% include 'wlm-product' with product %}{% endcapture %}{% unless wlm_check contains "Liquid error" %}{% include 'wlm-product' with product %}{% endunless %}
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
