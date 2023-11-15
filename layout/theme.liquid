@@ -37,7 +37,7 @@
       <script src="{{ 'animations.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
-    {% unless request.design_mode %}{% include 'wlm-head' %}{% endunless %}
+   
 {{ content_for_header }}
 
     {%- liquid
@@ -294,7 +294,7 @@
     {% sections 'header-group' %}
     <div id="top"></div>
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      {% comment %}{{ content_for_layout }}{% endcomment %}{% include 'wlm-body' %}
+      {{ content_for_layout }}
     </main>
     
     {% sections 'footer-group' %}
