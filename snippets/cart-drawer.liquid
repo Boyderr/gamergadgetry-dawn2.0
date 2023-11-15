@@ -112,21 +112,7 @@
                   </thead>
 
                   <tbody role="rowgroup">
-                    {%- assign wcp_total_price = 0 -%} 
-{%- for item in cart.items -%}
-{%- include 'wcp_discount' with item.product -%}
-                        {%- include 'wcp_variant' with item.variant -%} 
-                        {%- include 'wcp_vd_discount' with item -%} 
-                        {%- assign  wcp_custom_final_Price = item.final_price  -%} 
-                        {%- if wcp_v_price < wcp_custom_final_Price -%}
-                  			{%- assign wcp_line_price = wcp_v_price | floor | minus: 0 | times: item.quantity -%}
-                        {%- else -%}
-                            {%- assign wcp_v_price = wcp_custom_final_Price | floor | minus: 0 -%}
-               	            {%- assign wcp_line_price = wcp_custom_final_Price | floor | minus: 0 | times: item.quantity -%}
-                        {%- endif -%}
- {%- assign wcp_total_price = wcp_total_price | plus: wcp_line_price -%}	
- {{NextDiscountHtml}} 
-
+                    {%- for item in cart.items -%}
                       <tr id="CartDrawer-Item-{{ item.index | plus: 1 }}" class="cart-item" role="row">
                         <td class="cart-item__media" role="cell" headers="CartDrawer-ColumnProductImage">
                           {% if item.image %}
@@ -152,7 +138,7 @@
                             {{- item.product.title | escape -}}
                           </a>
 
-                          {%- if item.original_price !=  wcp_v_price  -%}
+                          {%- if item.original_price != item.final_price -%}
                             <div class="cart-item__discounted-prices">
                               <span class="visually-hidden">
                                 {{ 'products.product.price.regular_price' | t }}
@@ -164,7 +150,7 @@
                                 {{ 'products.product.price.sale_price' | t }}
                               </span>
                               <strong class="cart-item__final-price product-option">
-                                {{  wcp_v_price  | money }}
+                                {{ item.final_price | money }}
                               </strong>
                             </div>
                           {%- else -%}
@@ -247,7 +233,7 @@
                           </div>
 
                           <div class="cart-item__price-wrapper">
-                            {%- if item.original_line_price !=  wcp_line_price  -%}
+                            {%- if item.original_line_price != item.final_line_price -%}
                               <div class="cart-item__discounted-prices">
                                 <span class="visually-hidden">
                                   {{ 'products.product.price.regular_price' | t }}
@@ -259,7 +245,7 @@
                                   {{ 'products.product.price.sale_price' | t }}
                                 </span>
                                 <span class="price price--end">
-                                  {{  wcp_line_price  | money }}
+                                  {{ item.final_line_price | money }}
                                 </span>
                               </div>
                             {%- else -%}
@@ -423,7 +409,7 @@
                                     <ul class="list-unstyled">
                                       <li>
                                         <span>{{ item.variant.quantity_rule.min }}+</span>
-                                        <span>{{  wcp_v_price  | money_with_currency }}/ea</span>
+                                        <span>{{ item.variant.price | money_with_currency }}/ea</span>
                                       </li>
                                       {%- for price_break in item.variant.quantity_price_breaks -%}
                                         <li>
@@ -514,12 +500,7 @@
 
           <div class="totals" role="status">
             <h2 class="totals__total">{{ 'sections.cart.estimated_total' | t }}</h2>
-            <p class="totals__total-value"><span class="wcp-original-cart-total">{{ cart.total_price | money}}</span>
-    <span class="wcp-cart-total"></span>
-    <div class="additional-notes">
-        <span class="wcp-minimums-note"></span>
-        <span class="wcp-extra-note "></span>
-    </div>{% render "wcp_multi_currency_msg" %}</p>
+            <p class="totals__total-value">{{ cart.total_price | money_with_currency }}</p>
           </div>
 
           <small class="tax-note caption-large rte">
